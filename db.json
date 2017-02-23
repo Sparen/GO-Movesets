@@ -1,0 +1,3171 @@
+{
+    "qmoves": [
+        {
+            "name": "ACID",
+            "type": "PSN",
+            "power": "9",
+            "duration": "0.8"
+        },
+        {
+            "name": "AIR SLASH",
+            "type": "FLY",
+            "power": "14",
+            "duration": "1.2"
+        },
+        {
+            "name": "ASTONISH",
+            "type": "GST",
+            "power": "8",
+            "duration": "1.1"
+        },
+        {
+            "name": "BITE",
+            "type": "DRK",
+            "power": "6",
+            "duration": "0.5"
+        },
+        {
+            "name": "BUBBLE",
+            "type": "WTR",
+            "power": "12",
+            "duration": "1.2"
+        },
+        {
+            "name": "BUG BITE",
+            "type": "BUG",
+            "power": "5",
+            "duration": "0.5"
+        },
+        {
+            "name": "BULLET PUNCH",
+            "type": "STL",
+            "power": "9",
+            "duration": "0.9"
+        },
+        {
+            "name": "BULLET SEED",
+            "type": "GRS",
+            "power": "8",
+            "duration": "1.1"
+        },
+        {
+            "name": "CHARGE BEAM",
+            "type": "ELE",
+            "power": "8",
+            "duration": "1.1"
+        },
+        {
+            "name": "CONFUSION",
+            "type": "PSY",
+            "power": "20",
+            "duration": "1.6"
+        },
+        {
+            "name": "COUNTER",
+            "type": "FTG",
+            "power": "12",
+            "duration": "0.9"
+        },
+        {
+            "name": "CUT",
+            "type": "NRM",
+            "power": "5",
+            "duration": "0.5"
+        },
+        {
+            "name": "DRAGON BREATH",
+            "type": "DGN",
+            "power": "6",
+            "duration": "0.5"
+        },
+        {
+            "name": "DRAGON TAIL",
+            "type": "DGN",
+            "power": "15",
+            "duration": "1.1"
+        },
+        {
+            "name": "EMBER",
+            "type": "FIR",
+            "power": "10",
+            "duration": "1.0"
+        },
+        {
+            "name": "EXTRASENSORY",
+            "type": "PSY",
+            "power": "12",
+            "duration": "1.1"
+        },
+        {
+            "name": "FEINT ATTACK",
+            "type": "DRK",
+            "power": "10",
+            "duration": "0.9"
+        },
+        {
+            "name": "FIRE FANG",
+            "type": "FIR",
+            "power": "11",
+            "duration": "0.9"
+        },
+        {
+            "name": "FIRE SPIN",
+            "type": "FIR",
+            "power": "14",
+            "duration": "1.1"
+        },
+        {
+            "name": "FROST BREATH",
+            "type": "ICE",
+            "power": "10",
+            "duration": "0.9"
+        },
+        {
+            "name": "FURY CUTTER",
+            "type": "BUG",
+            "power": "3",
+            "duration": "0.4"
+        },
+        {
+            "name": "HEX",
+            "type": "GST",
+            "power": "10",
+            "duration": "1.2"
+        },
+        {
+            "name": "HIDDEN POWER",
+            "type": "VAR",
+            "power": "15",
+            "duration": "1.5"
+        },
+        {
+            "name": "ICE SHARD",
+            "type": "ICE",
+            "power": "12",
+            "duration": "1.2"
+        },
+        {
+            "name": "INFESTATION",
+            "type": "BUG",
+            "power": "10",
+            "duration": "1.1"
+        },
+        {
+            "name": "IRON TAIL",
+            "type": "STL",
+            "power": "15",
+            "duration": "1.1"
+        },
+        {
+            "name": "KARATE CHOP",
+            "type": "FTG",
+            "power": "8",
+            "duration": "0.8"
+        },
+        {
+            "name": "LICK",
+            "type": "GST",
+            "power": "5",
+            "duration": "0.5"
+        },
+        {
+            "name": "LOW KICK",
+            "type": "FTG",
+            "power": "6",
+            "duration": "0.6"
+        },
+        {
+            "name": "METAL CLAW",
+            "type": "STL",
+            "power": "8",
+            "duration": "0.7"
+        },
+        {
+            "name": "MUD SHOT",
+            "type": "GRD",
+            "power": "5",
+            "duration": "0.6"
+        },
+        {
+            "name": "MUD SLAP",
+            "type": "GRD",
+            "power": "15",
+            "duration": "1.4"
+        },
+        {
+            "name": "PECK",
+            "type": "FLY",
+            "power": "10",
+            "duration": "1.0"
+        },
+        {
+            "name": "POISON JAB",
+            "type": "PSN",
+            "power": "10",
+            "duration": "0.8"
+        },
+        {
+            "name": "POISON STING",
+            "type": "PSN",
+            "power": "5",
+            "duration": "0.6"
+        },
+        {
+            "name": "POUND",
+            "type": "NRM",
+            "power": "7",
+            "duration": "0.6"
+        },
+        {
+            "name": "POWDER SNOW",
+            "type": "ICE",
+            "power": "6",
+            "duration": "1.0"
+        },
+        {
+            "name": "PSYCHO CUT",
+            "type": "PSY",
+            "power": "5",
+            "duration": "0.6"
+        },
+        {
+            "name": "QUICK ATTACK",
+            "type": "NRM",
+            "power": "8",
+            "duration": "0.8"
+        },
+        {
+            "name": "RAZOR LEAF",
+            "type": "GRS",
+            "power": "13",
+            "duration": "1.0"
+        },
+        {
+            "name": "ROCK SMASH",
+            "type": "FTG",
+            "power": "15",
+            "duration": "1.3"
+        },
+        {
+            "name": "ROCK THROW",
+            "type": "RCK",
+            "power": "12",
+            "duration": "0.9"
+        },
+        {
+            "name": "SCRATCH",
+            "type": "NRM",
+            "power": "6",
+            "duration": "0.5"
+        },
+        {
+            "name": "SHADOW CLAW",
+            "type": "GST",
+            "power": "9",
+            "duration": "0.7"
+        },
+        {
+            "name": "SNARL",
+            "type": "DRK",
+            "power": "12",
+            "duration": "1.1"
+        },
+        {
+            "name": "SPARK",
+            "type": "ELE",
+            "power": "6",
+            "duration": "0.7"
+        },
+        {
+            "name": "SPLASH",
+            "type": "WTR",
+            "power": "0",
+            "duration": "1.73"
+        },
+        {
+            "name": "STEEL WING",
+            "type": "STL",
+            "power": "11",
+            "duration": "0.8"
+        },
+        {
+            "name": "STRUGGLE BUG",
+            "type": "BUG",
+            "power": "15",
+            "duration": "1.5"
+        },
+        {
+            "name": "SUCKER PUNCH",
+            "type": "DRK",
+            "power": "7",
+            "duration": "0.7"
+        },
+        {
+            "name": "TACKLE",
+            "type": "NRM",
+            "power": "5",
+            "duration": "0.5"
+        },
+        {
+            "name": "THUNDER SHOCK",
+            "type": "ELE",
+            "power": "5",
+            "duration": "0.6"
+        },
+        {
+            "name": "TRANSFORM",
+            "type": "NRM",
+            "power": "0",
+            "duration": "2.23"
+        },
+        {
+            "name": "WATER GUN",
+            "type": "WTR",
+            "power": "5",
+            "duration": "0.5"
+        },
+        {
+            "name": "WING ATTACK",
+            "type": "FLY",
+            "power": "8",
+            "duration": "0.8"
+        },
+        {
+            "name": "VINE WHIP",
+            "type": "GRS",
+            "power": "7",
+            "duration": "0.6"
+        },
+        {
+            "name": "VOLT SWITCH",
+            "type": "ELE",
+            "power": "20",
+            "duration": "2.3"
+        },
+        {
+            "name": "ZEN HEADBUTT",
+            "type": "PSY",
+            "power": "12",
+            "duration": "1.1"
+        }
+    ],
+    "cmoves": [
+        {
+            "name": "BLIZZARD",
+            "type": "ICE",
+            "power": "130",
+            "duration": "3.1",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "BRAVE BIRD",
+            "type": "FLY",
+            "power": "90",
+            "duration": "2.0",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "CLOSE COMBAT",
+            "type": "FTG",
+            "power": "100",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "EARTHQUAKE",
+            "type": "GRD",
+            "power": "120",
+            "duration": "3.6",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "FIRE BLAST",
+            "type": "FIR",
+            "power": "140",
+            "duration": "4.2",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "FLASH CANNON",
+            "type": "STL",
+            "power": "100",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "FUTURESIGHT",
+            "type": "PSY",
+            "power": "120",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "GUNK SHOT",
+            "type": "PSN",
+            "power": "130",
+            "duration": "3.1",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "HEAT WAVE",
+            "type": "FIR",
+            "power": "95",
+            "duration": "3.0",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "HURRICANE",
+            "type": "FLY",
+            "power": "110",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "HYDRO PUMP",
+            "type": "WTR",
+            "power": "130",
+            "duration": "3.3",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "HYPER BEAM",
+            "type": "NRM",
+            "power": "150",
+            "duration": "3.8",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "MEGAHORN",
+            "type": "BUG",
+            "power": "90",
+            "duration": "2.2",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "MOONBLAST",
+            "type": "FRY",
+            "power": "130",
+            "duration": "3.9",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "OVERHEAT",
+            "type": "FIR",
+            "power": "160",
+            "duration": "4.0",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "PETAL BLIZZARD",
+            "type": "GRS",
+            "power": "110",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "PSYCHIC",
+            "type": "PSY",
+            "power": "100",
+            "duration": "2.8",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "SLUDGE WAVE",
+            "type": "PSN",
+            "power": "110",
+            "duration": "3.2",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "SOLAR BEAM",
+            "type": "GRS",
+            "power": "180",
+            "duration": "4.9",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "STONE EDGE",
+            "type": "RCK",
+            "power": "100",
+            "duration": "2.3",
+            "crit": "0.50",
+            "bars": "1"
+        },
+        {
+            "name": "THUNDER",
+            "type": "ELE",
+            "power": "100",
+            "duration": "2.4",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "ZAP CANNON",
+            "type": "ELE",
+            "power": "140",
+            "duration": "3.7",
+            "crit": "0.05",
+            "bars": "1"
+        },
+        {
+            "name": "AIR CUTTER",
+            "type": "FLY",
+            "power": "60",
+            "duration": "2.7",
+            "crit": "0.25",
+            "bars": "2"
+        },
+        {
+            "name": "AURORA BEAM",
+            "type": "ICE",
+            "power": "80",
+            "duration": "3.55",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "AVALANCHE",
+            "type": "ICE",
+            "power": "90",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "BUG BUZZ",
+            "type": "BUG",
+            "power": "90",
+            "duration": "3.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "BULLDOZE",
+            "type": "GRD",
+            "power": "80",
+            "duration": "3.5",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "CROSS CHOP",
+            "type": "FTG",
+            "power": "50",
+            "duration": "1.5",
+            "crit": "0.25",
+            "bars": "2"
+        },
+        {
+            "name": "DARK PULSE",
+            "type": "DRK",
+            "power": "80",
+            "duration": "3.0",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "DAZZLING GLEAM",
+            "type": "FRY",
+            "power": "100",
+            "duration": "3.5",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "DIG",
+            "type": "GRD",
+            "power": "100",
+            "duration": "4.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "DRAINING KISS",
+            "type": "FRY",
+            "power": "60",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "DRILL RUN",
+            "type": "GRD",
+            "power": "80",
+            "duration": "2.8",
+            "crit": "0.25",
+            "bars": "2"
+        },
+        {
+            "name": "DYNAMIC PUNCH",
+            "type": "FTG",
+            "power": "90",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "ENERGY BALL",
+            "type": "GRS",
+            "power": "90",
+            "duration": "3.9",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "FLAMETHROWER",
+            "type": "FIR",
+            "power": "70",
+            "duration": "2.2",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "FLAME BURST",
+            "type": "FIR",
+            "power": "70",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "FOUL PLAY",
+            "type": "DRK",
+            "power": "70",
+            "duration": "2.0",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "GRASS KNOT",
+            "type": "GRS",
+            "power": "90",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "GYRO BALL",
+            "type": "STL",
+            "power": "80",
+            "duration": "3.3",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "HYPER FANG",
+            "type": "NRM",
+            "power": "80",
+            "duration": "2.5",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "IRON HEAD",
+            "type": "STL",
+            "power": "60",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "NIGHT SHADE",
+            "type": "GST",
+            "power": "60",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "PLAY ROUGH",
+            "type": "FRY",
+            "power": "90",
+            "duration": "2.9",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "POWER GEM",
+            "type": "RCK",
+            "power": "80",
+            "duration": "2.9",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "POWER WHIP",
+            "type": "GRS",
+            "power": "90",
+            "duration": "2.6",
+            "crit": "0.00",
+            "bars": "2"
+        },
+        {
+            "name": "PSYBEAM",
+            "type": "PSY",
+            "power": "70",
+            "duration": "3.2",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "ROCK SLIDE",
+            "type": "RCK",
+            "power": "80",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "ROCK TOMB",
+            "type": "RCK",
+            "power": "70",
+            "duration": "3.2",
+            "crit": "0.25",
+            "bars": "2"
+        },
+        {
+            "name": "SHADOW BALL",
+            "type": "GST",
+            "power": "100",
+            "duration": "3.0",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "SIGNAL BEAM",
+            "type": "BUG",
+            "power": "75",
+            "duration": "2.9",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "SKY ATTACK",
+            "type": "FLY",
+            "power": "70",
+            "duration": "2.0",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "SLUDGE BOMB",
+            "type": "PSN",
+            "power": "80",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "STOMP",
+            "type": "NRM",
+            "power": "55",
+            "duration": "1.7",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "SUBMISSION",
+            "type": "FTG",
+            "power": "60",
+            "duration": "2.2",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "SWIFT",
+            "type": "NRM",
+            "power": "60",
+            "duration": "2.8",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "THUNDERBOLT",
+            "type": "ELE",
+            "power": "80",
+            "duration": "2.5",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "WATER PULSE",
+            "type": "WTR",
+            "power": "70",
+            "duration": "3.2",
+            "crit": "0.05",
+            "bars": "2"
+        },
+        {
+            "name": "AERIAL ACE",
+            "type": "FLY",
+            "power": "55",
+            "duration": "2.4",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "ANCIENT POWER",
+            "type": "RCK",
+            "power": "70",
+            "duration": "3.5",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "AQUA JET",
+            "type": "WTR",
+            "power": "45",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "AQUA TAIL",
+            "type": "WTR",
+            "power": "50",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "BODY SLAM",
+            "type": "NRM",
+            "power": "50",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "BONE CLUB",
+            "type": "GRD",
+            "power": "40",
+            "duration": "1.6",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "BRICK BREAK",
+            "type": "FTG",
+            "power": "40",
+            "duration": "1.6",
+            "crit": "0.25",
+            "bars": "3"
+        },
+        {
+            "name": "BUBBLE BEAM",
+            "type": "WTR",
+            "power": "45",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "CROSS POISON",
+            "type": "PSN",
+            "power": "40",
+            "duration": "1.5",
+            "crit": "0.25",
+            "bars": "3"
+        },
+        {
+            "name": "CRUNCH",
+            "type": "DRK",
+            "power": "70",
+            "duration": "3.2",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "DISCHARGE",
+            "type": "ELE",
+            "power": "65",
+            "duration": "2.5",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "DRILL PECK",
+            "type": "FLY",
+            "power": "60",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "FIRE PUNCH",
+            "type": "FIR",
+            "power": "55",
+            "duration": "2.2",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "FLAME CHARGE",
+            "type": "FIR",
+            "power": "70",
+            "duration": "3.8",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "HORN ATTACK",
+            "type": "NRM",
+            "power": "40",
+            "duration": "1.85",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "ICE PUNCH",
+            "type": "ICE",
+            "power": "50",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "ICY WIND",
+            "type": "ICE",
+            "power": "60",
+            "duration": "3.3",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "LEAF BLADE",
+            "type": "GRS",
+            "power": "70",
+            "duration": "2.4",
+            "crit": "0.25",
+            "bars": "3"
+        },
+        {
+            "name": "LOW SWEEP",
+            "type": "FTG",
+            "power": "40",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "MAGNET BOMB",
+            "type": "STL",
+            "power": "70",
+            "duration": "2.8",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "MUD BOMB",
+            "type": "GRD",
+            "power": "55",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "NIGHT SLASH",
+            "type": "DRK",
+            "power": "50",
+            "duration": "2.2",
+            "crit": "0.25",
+            "bars": "3"
+        },
+        {
+            "name": "OMINOUS WIND",
+            "type": "GST",
+            "power": "50",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "POISON FANG",
+            "type": "PSN",
+            "power": "80",
+            "duration": "2.3",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "PSYSHOCK",
+            "type": "PSY",
+            "power": "65",
+            "duration": "2.7",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "SEED BOMB",
+            "type": "GRS",
+            "power": "55",
+            "duration": "2.1",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "SHADOW SNEAK",
+            "type": "GST",
+            "power": "50",
+            "duration": "2.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "SILVER WIND",
+            "type": "BUG",
+            "power": "70",
+            "duration": "3.7",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "STRUGGLE",
+            "type": "NRM",
+            "power": "35",
+            "duration": "2.2",
+            "crit": "0.00",
+            "bars": "3"
+        },
+        {
+            "name": "THUNDER PUNCH",
+            "type": "ELE",
+            "power": "45",
+            "duration": "1.8",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "TWISTER",
+            "type": "DGN",
+            "power": "45",
+            "duration": "2.8",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "VICE GRIP",
+            "type": "NRM",
+            "power": "35",
+            "duration": "1.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "WRAP",
+            "type": "NRM",
+            "power": "60",
+            "duration": "2.9",
+            "crit": "0.05",
+            "bars": "3"
+        },
+        {
+            "name": "X SCISSOR",
+            "type": "BUG",
+            "power": "45",
+            "duration": "1.6",
+            "crit": "0.00",
+            "bars": "3"
+        },
+
+        {
+            "name": "DISARMING VOICE",
+            "type": "FRY",
+            "power": "70",
+            "duration": "3.9",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "DRAGON CLAW",
+            "type": "DGN",
+            "power": "50",
+            "duration": "1.7",
+            "crit": "0.25",
+            "bars": "?"
+        },
+        {
+            "name": "DRAGON PULSE",
+            "type": "DGN",
+            "power": "90",
+            "duration": "3.6",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "FLAME WHEEL",
+            "type": "FIR",
+            "power": "60",
+            "duration": "2.7",
+            "crit": "0.25",
+            "bars": "?"
+        },
+        {
+            "name": "FOCUS BLAST",
+            "type": "FTG",
+            "power": "140",
+            "duration": "3.5",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "HEAVY SLAM",
+            "type": "STL",
+            "power": "70",
+            "duration": "2.1",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "ICE BEAM",
+            "type": "ICE",
+            "power": "90",
+            "duration": "3.3",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "MIRROR COAT",
+            "type": "PSY",
+            "power": "60",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "OUTRAGE",
+            "type": "DGN",
+            "power": "110",
+            "duration": "3.9",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "ROCK BLAST",
+            "type": "RCK",
+            "power": "50",
+            "duration": "2.1",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "SAND TOMB",
+            "type": "GRD",
+            "power": "80",
+            "duration": "4.0",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "SHADOW PUNCH",
+            "type": "GST",
+            "power": "40",
+            "duration": "1.7",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "SLUDGE",
+            "type": "PSN",
+            "power": "50",
+            "duration": "2.1",
+            "crit": "0.05",
+            "bars": "?"
+        },
+        {
+            "name": "WILD CHARGE",
+            "type": "ELE",
+            "power": "90",
+            "duration": "2.6",
+            "crit": "0.05",
+            "bars": "?"
+        }
+    ],
+    "mons": [
+        {
+            "id": "#003",
+            "name": "VENUSAUR",
+            "type1": "GRS",
+            "type2": "PSN",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "VINE WHIP", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "PETAL BLIZZARD", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#006",
+            "name": "CHARIZARD",
+            "type1": "FIR",
+            "type2": "FLY",
+            "quick": [
+                {"name": "EMBER", "legacy": true},
+                {"name": "WING ATTACK", "legacy": true},
+                {"name": "FIRE SPIN", "legacy": false},
+                {"name": "AIR SLASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FLAMETHROWER", "legacy": true},
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "DRAGON CLAW", "legacy": false},
+                {"name": "OVERHEAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#009",
+            "name": "BLASTOISE",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FLASH CANNON", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false}
+            ]
+        },
+        {
+            "id": "#012",
+            "name": "BUTTERFREE",
+            "type1": "BUG",
+            "type2": "FLY",
+            "quick": [
+                {"name": "BUG BITE", "legacy": true},
+                {"name": "STRUGGLE BUG", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BUG BUZZ", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "SIGNAL BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#015",
+            "name": "BEEDRILL",
+            "type1": "BUG",
+            "type2": "PSN",
+            "quick": [
+                {"name": "BUG BITE", "legacy": true},
+                {"name": "INFESTATION", "legacy": false},
+                {"name": "POISON JAB", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "X SCISSOR", "legacy": false}
+            ]
+        },
+        {
+            "id": "#018",
+            "name": "PIDGEOT",
+            "type1": "NRM",
+            "type2": "FLY",
+            "quick": [
+                {"name": "WING ATTACK", "legacy": true},
+                {"name": "AIR SLASH", "legacy": false},
+                {"name": "STEEL WING", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AIR CUTTER", "legacy": true},
+                {"name": "HURRICANE", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "BRAVE BIRD", "legacy": false}
+            ]
+        },
+        {
+            "id": "#020",
+            "name": "RATICATE",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "QUICK ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DIG", "legacy": false},
+                {"name": "HYPER FANG", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#022",
+            "name": "FEAROW",
+            "type1": "NRM",
+            "type2": "FLY",
+            "quick": [
+                {"name": "PECK", "legacy": false},
+                {"name": "STEEL WING", "legacy": false}
+            ],
+            "charge": [
+                {"name": "TWISTER", "legacy": true},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "DRILL RUN", "legacy": false},
+                {"name": "SKY ATTACK", "legacy": false}
+            ]
+        },
+        {
+            "id": "#024",
+            "name": "ARBOK",
+            "type1": "PSN",
+            "type2": "PSN",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DARK PULSE", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false},
+                {"name": "GUNK SHOT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#026",
+            "name": "RAICHU",
+            "type1": "ELE",
+            "type2": "ELE",
+            "quick": [
+                {"name": "THUNDER SHOCK", "legacy": true},
+                {"name": "VOLT SWITCH", "legacy": false},
+                {"name": "SPARK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "THUNDER", "legacy": true},
+                {"name": "BRICK BREAK", "legacy": false},
+                {"name": "THUNDER PUNCH", "legacy": false},
+                {"name": "WILD CHARGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#028",
+            "name": "SANDSLASH",
+            "type1": "GRD",
+            "type2": "GRD",
+            "quick": [
+                {"name": "METAL CLAW", "legacy": false},
+                {"name": "MUD SHOT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "ROCK TOMB", "legacy": false},
+                {"name": "BULLDOZE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#031",
+            "name": "NIDOQUEEN",
+            "type1": "PSN",
+            "type2": "GRD",
+            "quick": [
+                {"name": "POISON JAB", "legacy": false},
+                {"name": "BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#034",
+            "name": "NIDOKING",
+            "type1": "PSN",
+            "type2": "GRD",
+            "quick": [
+                {"name": "FURY CUTTER", "legacy": true},
+                {"name": "POISON JAB", "legacy": false},
+                {"name": "IRON TAIL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false},
+                {"name": "MEGAHORN", "legacy": false}
+            ]
+        },
+        {
+            "id": "#036",
+            "name": "CLEFABLE",
+            "type1": "FRY",
+            "type2": "FRY",
+            "quick": [
+                {"name": "POUND", "legacy": true},
+                {"name": "CHARGE BEAM", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DAZZLING GLEAM", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "MOONBLAST", "legacy": false}
+            ]
+        },
+        {
+            "id": "#038",
+            "name": "NINETALES",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "EMBER", "legacy": true},
+                {"name": "FEINT ATTACK", "legacy": false},
+                {"name": "FIRE SPIN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FLAMETHROWER", "legacy": true},
+                {"name": "FIRE BLAST", "legacy": true},
+                {"name": "HEAT WAVE", "legacy": false},
+                {"name": "OVERHEAT", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#040",
+            "name": "WIGGLYTUFF",
+            "type1": "FRY",
+            "type2": "FRY",
+            "quick": [
+                {"name": "POUND", "legacy": false},
+                {"name": "FEINT ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DAZZLING GLEAM", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "PLAY ROUGH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#045",
+            "name": "VILEPLUME",
+            "type1": "GRS",
+            "type2": "PSN",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PETAL BLIZZARD", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false},
+                {"name": "MOONBLAST", "legacy": false}
+            ]
+        },
+        {
+            "id": "#047",
+            "name": "PARASECT",
+            "type1": "BUG",
+            "type2": "GRS",
+            "quick": [
+                {"name": "STRUGGLE BUG", "legacy": false},
+                {"name": "FURY CUTTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CROSS POISON", "legacy": false},
+                {"name": "X SCISSOR", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#049",
+            "name": "VENOMOTH",
+            "type1": "BUG",
+            "type2": "PSN",
+            "quick": [
+                {"name": "BUG BITE", "legacy": true},
+                {"name": "INFESTATION", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "POISON FANG", "legacy": true},
+                {"name": "SILVER WIND", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "BUG BUZZ", "legacy": false}
+            ]
+        },
+        {
+            "id": "#051",
+            "name": "DUGTRIO",
+            "type1": "GRD",
+            "type2": "GRD",
+            "quick": [
+                {"name": "SUCKER PUNCH", "legacy": false},
+                {"name": "MUD SLAP", "legacy": false},
+                {"name": "MUD SHOT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "MUD BOMB", "legacy": false},
+                {"name": "ROCK TOMB", "legacy": false}
+            ]
+        },
+        {
+            "id": "#053",
+            "name": "PERSIAN",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "SCRATCH", "legacy": false},
+                {"name": "FEINT ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "NIGHT SLASH", "legacy": true},
+                {"name": "FOUL PLAY", "legacy": false},
+                {"name": "POWER GEM", "legacy": false},
+                {"name": "PLAY ROUGH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#055",
+            "name": "GOLDUCK",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#057",
+            "name": "PRIMEAPE",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "KARATE CHOP", "legacy": true},
+                {"name": "LOW KICK", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CROSS CHOP", "legacy": true},
+                {"name": "CLOSE COMBAT", "legacy": false},
+                {"name": "LOW SWEEP", "legacy": false},
+                {"name": "NIGHT SLASH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#059",
+            "name": "ARCANINE",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "BITE", "legacy": true},
+                {"name": "FIRE FANG", "legacy": false},
+                {"name": "SNARL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FLAMETHROWER", "legacy": true},
+                {"name": "BULLDOZE", "legacy": true},
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "WILD CHARGE", "legacy": false},
+                {"name": "CRUNCH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#062",
+            "name": "POLIWRATH",
+            "type1": "WTR",
+            "type2": "FTG",
+            "quick": [
+                {"name": "MUD SHOT", "legacy": true},
+                {"name": "BUBBLE", "legacy": false},
+                {"name": "ROCK SMASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SUBMISSION", "legacy": true},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "DYNAMIC PUNCH", "legacy": false},
+                {"name": "ICE PUNCH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#065",
+            "name": "ALAKAZAM",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "PSYCHO CUT", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYCHIC", "legacy": true},
+                {"name": "DAZZLING GLEAM", "legacy": true},
+                {"name": "FUTURESIGHT", "legacy": false},
+                {"name": "FOCUS BLAST", "legacy": false},
+                {"name": "SHADOW BALL", "legacy": false}
+            ]
+        },
+        {
+            "id": "#068",
+            "name": "MACHAMP",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "KARATE CHOP", "legacy": true},
+                {"name": "BULLET PUNCH", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STONE EDGE", "legacy": true},
+                {"name": "SUBMISSION", "legacy": true},
+                {"name": "CROSS CHOP", "legacy": true},
+                {"name": "HEAVY SLAM", "legacy": false},
+                {"name": "DYNAMIC PUNCH", "legacy": false},
+                {"name": "CLOSE COMBAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#071",
+            "name": "VICTREEBEL",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "LEAF BLADE", "legacy": false},
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#073",
+            "name": "TENTACRUEL",
+            "type1": "WTR",
+            "type2": "PSN",
+            "quick": [
+                {"name": "ACID", "legacy": false},
+                {"name": "POISON JAB", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false},
+                {"name": "BLIZZARD", "legacy": false}
+            ]
+        },
+        {
+            "id": "#076",
+            "name": "GOLEM",
+            "type1": "RCK",
+            "type2": "GRD",
+            "quick": [
+                {"name": "ROCK THROW", "legacy": false},
+                {"name": "MUD SLAP", "legacy": false},
+                {"name": "MUD SHOT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ANCIENT POWER", "legacy": true},
+                {"name": "STONE EDGE", "legacy": false},
+                {"name": "ROCK BLAST", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#078",
+            "name": "RAPIDASH",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "EMBER", "legacy": true},
+                {"name": "LOW KICK", "legacy": false},
+                {"name": "FIRE SPIN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "DRILL RUN", "legacy": false},
+                {"name": "HEAT WAVE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#080",
+            "name": "SLOWBRO",
+            "type1": "WTR",
+            "type2": "PSY",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#082",
+            "name": "MAGNETON",
+            "type1": "ELE",
+            "type2": "STL",
+            "quick": [
+                {"name": "THUNDER SHOCK", "legacy": true},
+                {"name": "SPARK", "legacy": false},
+                {"name": "CHARGE BEAM", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DISCHARGE", "legacy": true},
+                {"name": "ZAP CANNON", "legacy": false},
+                {"name": "MAGNET BOMB", "legacy": false},
+                {"name": "FLASH CANNON", "legacy": false}
+            ]
+        },
+        {
+            "id": "#083",
+            "name": "FARFETCH'D",
+            "type1": "NRM",
+            "type2": "FLY",
+            "quick": [
+                {"name": "CUT", "legacy": true},
+                {"name": "AIR SLASH", "legacy": false},
+                {"name": "FURY CUTTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "AIR CUTTER", "legacy": false},
+                {"name": "LEAF BLADE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#085",
+            "name": "DODRIO",
+            "type1": "NRM",
+            "type2": "FLY",
+            "quick": [
+                {"name": "FEINT ATTACK", "legacy": false},
+                {"name": "STEEL WING", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AIR CUTTER", "legacy": true},
+                {"name": "DRILL PECK", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "BRAVE BIRD", "legacy": false}
+            ]
+        },
+        {
+            "id": "#087",
+            "name": "DEWGONG",
+            "type1": "WTR",
+            "type2": "ICE",
+            "quick": [
+                {"name": "ICE SHARD", "legacy": true},
+                {"name": "FROST BREATH", "legacy": false},
+                {"name": "IRON TAIL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ICY WIND", "legacy": true},
+                {"name": "AQUA JET", "legacy": true},
+                {"name": "AURORA BEAM", "legacy": false},
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "BLIZZARD", "legacy": false}
+            ]
+        },
+        {
+            "id": "#089",
+            "name": "MUK",
+            "type1": "PSN",
+            "type2": "PSN",
+            "quick": [
+                {"name": "LICK", "legacy": true},
+                {"name": "INFESTATION", "legacy": false},
+                {"name": "POISON JAB", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DARK PULSE", "legacy": false},
+                {"name": "GUNK SHOT", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#091",
+            "name": "CLOYSTER",
+            "type1": "WTR",
+            "type2": "ICE",
+            "quick": [
+                {"name": "FROST BREATH", "legacy": false},
+                {"name": "ICE SHARD", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ICY WIND", "legacy": true},
+                {"name": "BLIZZARD", "legacy": true},
+                {"name": "AURORA BEAM", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "AVALANCHE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#094",
+            "name": "GENGAR",
+            "type1": "GST",
+            "type2": "PSN",
+            "quick": [
+                {"name": "SHADOW CLAW", "legacy": true},
+                {"name": "SUCKER PUNCH", "legacy": false},
+                {"name": "HEX", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DARK PULSE", "legacy": true},
+                {"name": "SHADOW BALL", "legacy": false},
+                {"name": "FOCUS BLAST", "legacy": false},
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#097",
+            "name": "HYPNO",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "ZEN HEADBUTT", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYSHOCK", "legacy": true},
+                {"name": "SHADOW BALL", "legacy": true},
+                {"name": "FUTURESIGHT", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "FOCUS BLAST", "legacy": false}
+            ]
+        },
+        {
+            "id": "#099",
+            "name": "KINGLER",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "MUD SHOT", "legacy": true},
+                {"name": "BUBBLE", "legacy": false},
+                {"name": "METAL CLAW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "VICE GRIP", "legacy": false},
+                {"name": "X SCISSOR", "legacy": false},
+                {"name": "WATER PULSE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#101",
+            "name": "ELECTRODE",
+            "type1": "ELE",
+            "type2": "ELE",
+            "quick": [
+                {"name": "TACKLE", "legacy": true},
+                {"name": "SPARK", "legacy": false},
+                {"name": "VOLT SWITCH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DISCHARGE", "legacy": false},
+                {"name": "THUNDERBOLT", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#103",
+            "name": "EXEGGUTOR",
+            "type1": "GRS",
+            "type2": "PSY",
+            "quick": [
+                {"name": "ZEN HEADBUTT", "legacy": true},
+                {"name": "CONFUSION", "legacy": true},
+                {"name": "BULLET SEED", "legacy": false},
+                {"name": "EXTRASENSORY", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SEED BOMB", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#105",
+            "name": "MAROWAK",
+            "type1": "GRD",
+            "type2": "GRD",
+            "quick": [
+                {"name": "MUD SLAP", "legacy": false},
+                {"name": "ROCK SMASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BONE CLUB", "legacy": false},
+                {"name": "DIG", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#106",
+            "name": "HITMONLEE",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "LOW KICK", "legacy": false},
+                {"name": "ROCK SMASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BRICK BREAK", "legacy": true},
+                {"name": "CLOSE COMBAT", "legacy": false},
+                {"name": "LOW SWEEP", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false},
+                {"name": "STOMP", "legacy": false}
+            ]
+        },
+        {
+            "id": "#107",
+            "name": "HITMONCHAN",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "ROCK SMASH", "legacy": true},
+                {"name": "BULLET PUNCH", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BRICK BREAK", "legacy": true},
+                {"name": "FIRE PUNCH", "legacy": false},
+                {"name": "ICE PUNCH", "legacy": false},
+                {"name": "THUNDER PUNCH", "legacy": false},
+                {"name": "CLOSE COMBAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#108",
+            "name": "LICKITUNG",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "LICK", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "STOMP", "legacy": false},
+                {"name": "POWER WHIP", "legacy": false}
+            ]
+        },
+        {
+            "id": "#110",
+            "name": "WEEZING",
+            "type1": "PSN",
+            "type2": "PSN",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "INFESTATION", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "SHADOW BALL", "legacy": false},
+                {"name": "DARK PULSE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#112",
+            "name": "RHYDON",
+            "type1": "GRD",
+            "type2": "RCK",
+            "quick": [
+                {"name": "MUD SLAP", "legacy": false},
+                {"name": "ROCK SMASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "MEGAHORN", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#114",
+            "name": "TANGELA",
+            "type1": "GRS",
+            "type2": "GRS",
+            "quick": [
+                {"name": "VINE WHIP", "legacy": false},
+                {"name": "INFESTATION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "POWER WHIP", "legacy": true},
+                {"name": "GRASS KNOT", "legacy": false},
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#115",
+            "name": "KANGASKHAN",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "MUD SLAP", "legacy": false},
+                {"name": "LOW KICK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BRICK BREAK", "legacy": true},
+                {"name": "STOMP", "legacy": true},
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "OUTRAGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#119",
+            "name": "SEAKING",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "PECK", "legacy": false},
+                {"name": "POISON JAB", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ICY WIND", "legacy": true},
+                {"name": "DRILL RUN", "legacy": true},
+                {"name": "ICE BEAM", "legacy": false},
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "MEGAHORN", "legacy": false}
+            ]
+        },
+        {
+            "id": "#121",
+            "name": "STARMIE",
+            "type1": "WTR",
+            "type2": "PSY",
+            "quick": [
+                {"name": "TACKLE", "legacy": true},
+                {"name": "HIDDEN POWER", "legacy": false},
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "QUICK ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "POWER GEM", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "PSYBEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#122",
+            "name": "MR. MIME",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "CONFUSION", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYBEAM", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "SHADOW BALL", "legacy": false}
+            ]
+        },
+        {
+            "id": "#124",
+            "name": "JYNX",
+            "type1": "ICE",
+            "type2": "PSY",
+            "quick": [
+                {"name": "POUND", "legacy": true},
+                {"name": "FROST BREATH", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ICE PUNCH", "legacy": true},
+                {"name": "DRAINING KISS", "legacy": false},
+                {"name": "AVALANCHE", "legacy": false},
+                {"name": "PSYSHOCK", "legacy": false}
+            ]
+        },
+        {
+            "id": "#125",
+            "name": "ELECTABUZZ",
+            "type1": "ELE",
+            "type2": "ELE",
+            "quick": [
+                {"name": "THUNDER SHOCK", "legacy": false},
+                {"name": "LOW KICK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "THUNDER PUNCH", "legacy": false},
+                {"name": "THUNDERBOLT", "legacy": false},
+                {"name": "THUNDER", "legacy": false}
+            ]
+        },
+        {
+            "id": "#126",
+            "name": "MAGMAR",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "EMBER", "legacy": false},
+                {"name": "KARATE CHOP", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "FIRE PUNCH", "legacy": false},
+                {"name": "FLAMETHROWER", "legacy": false}
+            ]
+        },
+        {
+            "id": "#127",
+            "name": "PINSIR",
+            "type1": "BUG",
+            "type2": "BUG",
+            "quick": [
+                {"name": "FURY CUTTER", "legacy": true},
+                {"name": "ROCK SMASH", "legacy": false},
+                {"name": "BUG BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SUBMISSION", "legacy": true},
+                {"name": "VICE GRIP", "legacy": false},
+                {"name": "X SCISSOR", "legacy": false},
+                {"name": "CLOSE COMBAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#128",
+            "name": "TAUROS",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HORN ATTACK", "legacy": false},
+                {"name": "IRON HEAD", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#130",
+            "name": "GYARADOS",
+            "type1": "WTR",
+            "type2": "FLY",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "DRAGON TAIL", "legacy": false},
+                {"name": "DRAGON BREATH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "TWISTER", "legacy": true},
+                {"name": "DRAGON PULSE", "legacy": true},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "OUTRAGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#131",
+            "name": "LAPRAS",
+            "type1": "WTR",
+            "type2": "ICE",
+            "quick": [
+                {"name": "ICE SHARD", "legacy": true},
+                {"name": "FROST BREATH", "legacy": false},
+                {"name": "WATER GUN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DRAGON PULSE", "legacy": true},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false},
+                {"name": "BLIZZARD", "legacy": false}
+            ]
+        },
+        {
+            "id": "#132",
+            "name": "DITTO",
+            "type1": "WTR",
+            "type2": "ICE",
+            "quick": [
+                {"name": "TRANSFORM", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STRUGGLE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#134",
+            "name": "VAPOREON",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "AQUA TAIL", "legacy": false}
+            ]
+        },
+        {
+            "id": "#135",
+            "name": "JOLTEON",
+            "type1": "ELE",
+            "type2": "ELE",
+            "quick": [
+                {"name": "SPARK", "legacy": false},
+                {"name": "VOLT SWITCH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DISCHARGE", "legacy": false},
+                {"name": "THUNDERBOLT", "legacy": false},
+                {"name": "THUNDER", "legacy": false}
+            ]
+        },
+        {
+            "id": "#136",
+            "name": "FLAREON",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "EMBER", "legacy": false},
+                {"name": "FIRE SPIN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HEAT WAVE", "legacy": true},
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "FLAMETHROWER", "legacy": false},
+                {"name": "OVERHEAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#139",
+            "name": "OMASTAR",
+            "type1": "RCK",
+            "type2": "WTR",
+            "quick": [
+                {"name": "MUD SHOT", "legacy": false},
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "ROCK THROW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ROCK SLIDE", "legacy": true},
+                {"name": "ANCIENT POWER", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "ROCK BLAST", "legacy": false}
+            ]
+        },
+        {
+            "id": "#141",
+            "name": "KABUTOPS",
+            "type1": "RCK",
+            "type2": "WTR",
+            "quick": [
+                {"name": "FURY CUTTER", "legacy": true},
+                {"name": "MUD SHOT", "legacy": false},
+                {"name": "ROCK SMASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ANCIENT POWER", "legacy": false},
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#142",
+            "name": "AERODACTYL",
+            "type1": "RCK",
+            "type2": "FLY",
+            "quick": [
+                {"name": "STEEL WING", "legacy": false},
+                {"name": "BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ANCIENT POWER", "legacy": false},
+                {"name": "IRON HEAD", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#143",
+            "name": "SNORLAX",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "ZEN HEADBUTT", "legacy": false},
+                {"name": "LICK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BODY SLAM", "legacy": true},
+                {"name": "HEAVY SLAM", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#149",
+            "name": "DRAGONITE",
+            "type1": "DGN",
+            "type2": "FLY",
+            "quick": [
+                {"name": "DRAGON BREATH", "legacy": true},
+                {"name": "DRAGON TAIL", "legacy": false},
+                {"name": "STEEL WING", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DRAGON PULSE", "legacy": true},
+                {"name": "DRAGON CLAW", "legacy": true},
+                {"name": "HURRICANE", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "OUTRAGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#154",
+            "name": "MEGANIUM",
+            "type1": "GRS",
+            "type2": "GRS",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "VINE WHIP", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PETAL BLIZZARD", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#157",
+            "name": "TYPHLOSION",
+            "type1": "FIR",
+            "type2": "FIR",
+            "quick": [
+                {"name": "EMBER", "legacy": false},
+                {"name": "SHADOW CLAW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "OVERHEAT", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#160",
+            "name": "FERALIGATR",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#162",
+            "name": "FURRET",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "QUICK ATTACK", "legacy": false},
+                {"name": "SUCKER PUNCH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DIG", "legacy": false},
+                {"name": "BRICK BREAK", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#164",
+            "name": "NOCTOWL",
+            "type1": "NRM",
+            "type2": "FLY",
+            "quick": [
+                {"name": "WING ATTACK", "legacy": false},
+                {"name": "EXTRASENSORY", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "SKY ATTACK", "legacy": false},
+                {"name": "NIGHT SHADE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#166",
+            "name": "LEDIAN",
+            "type1": "BUG",
+            "type2": "FLY",
+            "quick": [
+                {"name": "STRUGGLE BUG", "legacy": false},
+                {"name": "BUG BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BUG BUZZ", "legacy": false},
+                {"name": "SILVER WIND", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#168",
+            "name": "ARIADOS",
+            "type1": "BUG",
+            "type2": "PSN",
+            "quick": [
+                {"name": "POISON STING", "legacy": false},
+                {"name": "INFESTATION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SHADOW SNEAK", "legacy": false},
+                {"name": "MEGAHORN", "legacy": false},
+                {"name": "CROSS POISON", "legacy": false}
+            ]
+        },
+        {
+            "id": "#169",
+            "name": "CROBAT",
+            "type1": "PSN",
+            "type2": "FLY",
+            "quick": [
+                {"name": "AIR SLASH", "legacy": false},
+                {"name": "BITE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SHADOW BALL", "legacy": false},
+                {"name": "AIR CUTTER", "legacy": false},
+                {"name": "SLUDGE BOMB", "legacy": false}
+            ]
+        },
+        {
+            "id": "#171",
+            "name": "LANTURN",
+            "type1": "WTR",
+            "type2": "ELE",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "CHARGE BEAM", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "THUNDERBOLT", "legacy": false},
+                {"name": "THUNDER", "legacy": false}
+            ]
+        },
+        {
+            "id": "#176",
+            "name": "TOGETIC",
+            "type1": "FRY",
+            "type2": "FLY",
+            "quick": [
+                {"name": "EXTRASENSORY", "legacy": false},
+                {"name": "HIDDEN POWER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ANCIENT POWER", "legacy": false},
+                {"name": "DAZZLING GLEAM", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#178",
+            "name": "XATU",
+            "type1": "PSY",
+            "type2": "FLY",
+            "quick": [
+                {"name": "AIR SLASH", "legacy": false},
+                {"name": "FEINT ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "OMINOUS WIND", "legacy": false},
+                {"name": "FUTURESIGHT", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#181",
+            "name": "AMPHAROS",
+            "type1": "ELE",
+            "type2": "ELE",
+            "quick": [
+                {"name": "CHARGE BEAM", "legacy": false},
+                {"name": "VOLT SWITCH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ZAP CANNON", "legacy": false},
+                {"name": "FOCUS BLAST", "legacy": false},
+                {"name": "THUNDER", "legacy": false}
+            ]
+        },
+        {
+            "id": "#182",
+            "name": "BELLOSSOM",
+            "type1": "GRS",
+            "type2": "GRS",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "ACID", "legacy": false}
+            ],
+            "charge": [
+                {"name": "LEAF BLADE", "legacy": false},
+                {"name": "PETAL BLIZZARD", "legacy": false},
+                {"name": "DAZZLING GLEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#184",
+            "name": "AZUMARILL",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "ROCK SMASH", "legacy": false},
+                {"name": "BUBBLE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PLAY ROUGH", "legacy": false},
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#185",
+            "name": "SUDOWOODO",
+            "type1": "RCK",
+            "type2": "RCK",
+            "quick": [
+                {"name": "ROCK THROW", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STONE EDGE", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "ROCK SLIDE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#186",
+            "name": "POLITOED",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "MUD SHOT", "legacy": false},
+                {"name": "BUBBLE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "BLIZZARD", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#189",
+            "name": "JUMPLUFF",
+            "type1": "GRS",
+            "type2": "FLY",
+            "quick": [
+                {"name": "INFESTATION", "legacy": false},
+                {"name": "BULLET SEED", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ENERGY BALL", "legacy": false},
+                {"name": "DAZZLING GLEAM", "legacy": false},
+                {"name": "SOLAR BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#190",
+            "name": "AIPOM",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "SCRATCH", "legacy": false},
+                {"name": "ASTONISH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "LOW SWEEP", "legacy": false},
+                {"name": "SWIFT", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#192",
+            "name": "SUNFLORA",
+            "type1": "GRS",
+            "type2": "GRS",
+            "quick": [
+                {"name": "RAZOR LEAF", "legacy": false},
+                {"name": "BULLET SEED", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SOLAR BEAM", "legacy": false},
+                {"name": "PETAL BLIZZARD", "legacy": false},
+                {"name": "SLUDGE BOMB", "legacy": false}
+            ]
+        },
+        {
+            "id": "#193",
+            "name": "YANMA",
+            "type1": "BUG",
+            "type2": "FLY",
+            "quick": [
+                {"name": "QUICK ATTACK", "legacy": false},
+                {"name": "WING ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ANCIENT POWER", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "SILVER WIND", "legacy": false}
+            ]
+        },
+        {
+            "id": "#195",
+            "name": "QUAGSIRE",
+            "type1": "WTR",
+            "type2": "GRD",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "MUD SHOT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SLUDGE BOMB", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#196",
+            "name": "ESPEON",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "CONFUSION", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYBEAM", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "FUTURESIGHT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#197",
+            "name": "UMBREON",
+            "type1": "DRK",
+            "type2": "DRK",
+            "quick": [
+                {"name": "FEINT ATTACK", "legacy": false},
+                {"name": "SNARL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DARK PULSE", "legacy": false},
+                {"name": "FOUL PLAY", "legacy": false}
+            ]
+        },
+        {
+            "id": "#198",
+            "name": "MURKROW",
+            "type1": "DRK",
+            "type2": "FLY",
+            "quick": [
+                {"name": "PECK", "legacy": false},
+                {"name": "FEINT ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DRILL PECK", "legacy": false},
+                {"name": "FOUL PLAY", "legacy": false},
+                {"name": "DARK PULSE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#199",
+            "name": "SLOWKING",
+            "type1": "WTR",
+            "type2": "PSY",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BLIZZARD", "legacy": false},
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "FIRE BLAST", "legacy": false}
+            ]
+        },
+        {
+            "id": "#200",
+            "name": "MISDREAVUS",
+            "type1": "GST",
+            "type2": "GST",
+            "quick": [
+                {"name": "ASTONISH", "legacy": false},
+                {"name": "HEX", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SHADOW SNEAK", "legacy": false},
+                {"name": "DARK PULSE", "legacy": false},
+                {"name": "OMINOUS WIND", "legacy": false}
+            ]
+        },
+        {
+            "id": "#201",
+            "name": "UNOWN",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "HIDDEN POWER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STRUGGLE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#202",
+            "name": "WOBBUFFET",
+            "type1": "PSY",
+            "type2": "PSY",
+            "quick": [
+                {"name": "COUNTER", "legacy": false},
+                {"name": "SPLASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "MIRROR COAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#203",
+            "name": "GIRAFARIG",
+            "type1": "NRM",
+            "type2": "PSY",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "CONFUSION", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "THUNDERBOLT", "legacy": false},
+                {"name": "MIRROR COAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#205",
+            "name": "FORRETRESS",
+            "type1": "BUG",
+            "type2": "STL",
+            "quick": [
+                {"name": "BUG BITE", "legacy": false},
+                {"name": "STRUGGLE BUG", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HEAVY SLAM", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "ROCK TOMB", "legacy": false}
+            ]
+        },
+        {
+            "id": "#206",
+            "name": "DUNSPARCE",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "ASTONISH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DIG", "legacy": false},
+                {"name": "ROCK SLIDE", "legacy": false},
+                {"name": "DRILL RUN", "legacy": false}
+            ]
+        },
+        {
+            "id": "#207",
+            "name": "GLIGAR",
+            "type1": "GRD",
+            "type2": "FLY",
+            "quick": [
+                {"name": "FURY CUTTER", "legacy": false},
+                {"name": "WING ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "DIG", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false},
+                {"name": "NIGHT SLASH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#208",
+            "name": "STEELIX",
+            "type1": "STL",
+            "type2": "GRD",
+            "quick": [
+                {"name": "IRON TAIL", "legacy": false},
+                {"name": "DRAGON TAIL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "HEAVY SLAM", "legacy": false},
+                {"name": "CRUNCH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#210",
+            "name": "GRANBULL",
+            "type1": "FRY",
+            "type2": "FRY",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "SNARL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "PLAY ROUGH", "legacy": false},
+                {"name": "CLOSE COMBAT", "legacy": false}
+            ]
+        },
+        {
+            "id": "#211",
+            "name": "QWILFISH",
+            "type1": "WTR",
+            "type2": "PSN",
+            "quick": [
+                {"name": "POISON STING", "legacy": false},
+                {"name": "WATER GUN", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AQUA TAIL", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false},
+                {"name": "SLUDGE WAVE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#212",
+            "name": "SCIZOR",
+            "type1": "BUG",
+            "type2": "STL",
+            "quick": [
+                {"name": "BULLET PUNCH", "legacy": false},
+                {"name": "FURY CUTTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "X SCISSOR", "legacy": false},
+                {"name": "IRON HEAD", "legacy": false},
+                {"name": "NIGHT SLASH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#213",
+            "name": "SHUCKLE",
+            "type1": "BUG",
+            "type2": "RCK",
+            "quick": [
+                {"name": "STRUGGLE BUG", "legacy": false},
+                {"name": "ROCK THROW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ROCK BLAST", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false},
+                {"name": "GYRO BALL", "legacy": false}
+            ]
+        },
+        {
+            "id": "#214",
+            "name": "HERACROSS",
+            "type1": "BUG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "COUNTER", "legacy": false},
+                {"name": "STRUGGLE BUG", "legacy": false}
+            ],
+            "charge": [
+                {"name": "MEGAHORN", "legacy": false},
+                {"name": "CLOSE COMBAT", "legacy": false},
+                {"name": "EARTHQUAKE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#215",
+            "name": "SNEASEL",
+            "type1": "DRK",
+            "type2": "ICE",
+            "quick": [
+                {"name": "ICE SHARD", "legacy": false},
+                {"name": "FEINT ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AVALANCHE", "legacy": false},
+                {"name": "ICE PUNCH", "legacy": false},
+                {"name": "FOUL PLAY", "legacy": false}
+            ]
+        },
+        {
+            "id": "#217",
+            "name": "URSARING",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "METAL CLAW", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CLOSE COMBAT", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "PLAY ROUGH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#219",
+            "name": "MAGCARGO",
+            "type1": "FIR",
+            "type2": "RCK",
+            "quick": [
+                {"name": "EMBER", "legacy": false},
+                {"name": "ROCK THROW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HEAT WAVE", "legacy": false},
+                {"name": "OVERHEAT", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#221",
+            "name": "PILOSWINE",
+            "type1": "ICE",
+            "type2": "GRD",
+            "quick": [
+                {"name": "ICE SHARD", "legacy": false},
+                {"name": "POWDER SNOW", "legacy": false}
+            ],
+            "charge": [
+                {"name": "AVALANCHE", "legacy": false},
+                {"name": "BULLDOZE", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#222",
+            "name": "CORSOLA",
+            "type1": "WTR",
+            "type2": "RCK",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "BUBBLE", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ROCK BLAST", "legacy": false},
+                {"name": "POWER GEM", "legacy": false},
+                {"name": "BUBBLE BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#224",
+            "name": "OCTILLERY",
+            "type1": "WTR",
+            "type2": "WTR",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "MUD SHOT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "GUNK SHOT", "legacy": false},
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "AURORA BEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#225",
+            "name": "DELIBIRD",
+            "type1": "ICE",
+            "type2": "FLY",
+            "quick": [
+                {"name": "ICE SHARD", "legacy": false},
+                {"name": "QUICK ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "ICE PUNCH", "legacy": false},
+                {"name": "ICY WIND", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#226",
+            "name": "MANTINE",
+            "type1": "WTR",
+            "type2": "FLY",
+            "quick": [
+                {"name": "BUBBLE", "legacy": false},
+                {"name": "WING ATTACK", "legacy": false}
+            ],
+            "charge": [
+                {"name": "WATER PULSE", "legacy": false},
+                {"name": "ICE BEAM", "legacy": false},
+                {"name": "AERIAL ACE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#227",
+            "name": "SKARMORY",
+            "type1": "STL",
+            "type2": "FLY",
+            "quick": [
+                {"name": "STEEL WING", "legacy": false},
+                {"name": "AIR SLASH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "BRAVE BIRD", "legacy": false},
+                {"name": "SKY ATTACK", "legacy": false},
+                {"name": "FLASH CANNON", "legacy": false}
+            ]
+        },
+        {
+            "id": "#229",
+            "name": "HOUNDOOM",
+            "type1": "DRK",
+            "type2": "FIR",
+            "quick": [
+                {"name": "SNARL", "legacy": false},
+                {"name": "FIRE FANG", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "FOUL PLAY", "legacy": false}
+            ]
+        },
+        {
+            "id": "#230",
+            "name": "KINGDRA",
+            "type1": "WTR",
+            "type2": "DGN",
+            "quick": [
+                {"name": "WATER GUN", "legacy": false},
+                {"name": "DRAGON BREATH", "legacy": false}
+            ],
+            "charge": [
+                {"name": "HYDRO PUMP", "legacy": false},
+                {"name": "BLIZZARD", "legacy": false},
+                {"name": "OUTRAGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#232",
+            "name": "DONPHAN",
+            "type1": "GRD",
+            "type2": "GRD",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "EARTHQUAKE", "legacy": false},
+                {"name": "HEAVY SLAM", "legacy": false},
+                {"name": "PLAY ROUGH", "legacy": false}
+            ]
+        },
+        {
+            "id": "#233",
+            "name": "PORYGON2",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "HIDDEN POWER", "legacy": false},
+                {"name": "CHARGE BEAM", "legacy": false}
+            ],
+            "charge": [
+                {"name": "SOLAR BEAM", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "ZAP CANNON", "legacy": false}
+            ]
+        },
+        {
+            "id": "#234",
+            "name": "STANLER",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STOMP", "legacy": false},
+                {"name": "WILD CHARGE", "legacy": false},
+                {"name": "MEGAHORN", "legacy": false}
+            ]
+        },
+        {
+            "id": "#237",
+            "name": "HITMONTOP",
+            "type1": "FTG",
+            "type2": "FTG",
+            "quick": [
+                {"name": "ROCK SMASH", "legacy": false},
+                {"name": "COUNTER", "legacy": false}
+            ],
+            "charge": [
+                {"name": "CLOSE COMBAT", "legacy": false},
+                {"name": "GYRO BALL", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        },
+        {
+            "id": "#241",
+            "name": "MILTANK",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "TACKLE", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "STOMP", "legacy": false},
+                {"name": "BODY SLAM", "legacy": false},
+                {"name": "GYRO BALL", "legacy": false}
+            ]
+        },
+        {
+            "id": "#242",
+            "name": "BLISSEY",
+            "type1": "NRM",
+            "type2": "NRM",
+            "quick": [
+                {"name": "POUND", "legacy": false},
+                {"name": "ZEN HEADBUTT", "legacy": false}
+            ],
+            "charge": [
+                {"name": "PSYCHIC", "legacy": false},
+                {"name": "HYPER BEAM", "legacy": false},
+                {"name": "DAZZLING GLEAM", "legacy": false}
+            ]
+        },
+        {
+            "id": "#248",
+            "name": "TYRANITAR",
+            "type1": "RCK",
+            "type2": "DRK",
+            "quick": [
+                {"name": "BITE", "legacy": false},
+                {"name": "IRON TAIL", "legacy": false}
+            ],
+            "charge": [
+                {"name": "FIRE BLAST", "legacy": false},
+                {"name": "CRUNCH", "legacy": false},
+                {"name": "STONE EDGE", "legacy": false}
+            ]
+        }
+    ]
+}

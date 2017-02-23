@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<meta charset="utf-8">
+<title>POKÉMON GO MOVESET DATA</title>
+<style>
+    body {font-family: "Menlo", monospace; font-size: 12px; white-space: pre;}
+    .bug {background-color: #A8B820; color: #FFFFFF; font-size: 10px;}
+    .drk {background-color: #705848; color: #FFFFFF; font-size: 10px;}
+    .dgn {background-color: #7038F8; color: #FFFFFF; font-size: 10px;}
+    .ele {background-color: #F8D030; color: #FFFFFF; font-size: 10px;}
+    .fry {background-color: #EE99AC; color: #FFFFFF; font-size: 10px;}
+    .ftg {background-color: #C03028; color: #FFFFFF; font-size: 10px;}
+    .fir {background-color: #F08030; color: #FFFFFF; font-size: 10px;}
+    .fly {background-color: #A890F0; color: #FFFFFF; font-size: 10px;}
+    .gst {background-color: #705898; color: #FFFFFF; font-size: 10px;}
+    .grs {background-color: #78C850; color: #FFFFFF; font-size: 10px;}
+    .grd {background-color: #E0C068; color: #FFFFFF; font-size: 10px;}
+    .ice {background-color: #98D8D8; color: #FFFFFF; font-size: 10px;}
+    .nrm {background-color: #A8A878; color: #FFFFFF; font-size: 10px;}
+    .psn {background-color: #A040A0; color: #FFFFFF; font-size: 10px;}
+    .psy {background-color: #F85888; color: #FFFFFF; font-size: 10px;}
+    .rck {background-color: #B8A038; color: #FFFFFF; font-size: 10px;}
+    .stl {background-color: #B8B8D0; color: #FFFFFF; font-size: 10px;}
+    .unk {background-color: #68A090; color: #FFFFFF; font-size: 10px;}
+    .wtr {background-color: #6890F0; color: #FFFFFF; font-size: 10px;}
+</style>
+<body>
+SOURCE: <a href="https://thesilphroad.com/catalog">The Silph Road</a>
+
+Notes: A 'L' after a move (at the end of a row) denotes a legacy moveset. Legacy moves move to the top of the move list.
+Notes: All DPS takes STAB into account.
+
+Example Table:
+
+*--------------------------------------*
+| #001 BULBASAUR   |                   | <span class="grs">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| VINE WHIP        | 14.6 DPS          | <span class="grs"> GRS  </span>
+| TACKLE           | 0000 DPS          | <span class="nrm"> NRM  </span>
+|------------------+-------------------|
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| SEED BOMB        | 32.7 DPS 3 BAR    | <span class="grs"> GRS  </span>
+| POWER WHIP       | 43.3 DPS 2 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+The above table is only for reference as to table structure and is not necessarily valid at the time of reading.
+Take care to use spaces rather than tabs.
+
+Empty Table:
+
+*--------------------------------------*
+| #000 XNAMEHEREX  |                   |
+|------------------+-------------------|
+| QUICK            | 0000 DPS          |
+| QUICK            | 0000 DPS          |
+|------------------+-------------------|
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+*--------------------------------------*
+
+--------------------------------------------------
+
+*--------------------------------------*
+| #003 VENUSAUR    |                   | <span class="grs">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 16.3 DPS          | <span class="grs"> GRS  </span>
+| VINE WHIP        | 14.6 DPS          | <span class="grs"> GRS  </span>
+|------------------+-------------------|
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| PETAL BLIZZARD   | 52.9 DPS ? BAR    | <span class="grs"> GRS  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #006 CHARIZARD   |                   | <span class="fir">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS        L | <span class="fir"> FIR  </span>
+| WING ATTACK      | 0000 DPS        L | <span class="fly"> FLY  </span>
+| FIRE SPIN        | 15.9 DPS          | <span class="fir"> FIR  </span>
+| AIR SLASH        | 14.6 DPS          | <span class="fly"> FLY  </span>
+|------------------+-------------------|
+| FLAMETHROWER     | 39.8 DPS 2 BAR  L | <span class="fir"> FIR  </span>
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| DRAGON CLAW      | 29.4 DPS ? BAR    | <span class="dgn"> DGN  </span>
+| OVERHEAT         | 50.0 DPS 1 BAR    | <span class="fir"> FIR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #009 BLASTOISE   |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| WATER GUN        | 12.5 DPS          | <span class="wtr"> WTR  </span>
+| BITE             | 12.0 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| FLASH CANNON     | 37.0 DPS 1 BAR    | <span class="stl"> STL  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #012 BUTTERFREE  |                   | <span class="bug">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| BUG BITE         | 0000 DPS        L | <span class="bug"> BUG  </span>
+| STRUGGLE BUG     | 12.5 DPS          | <span class="bug"> BUG  </span>
+| CONFUSION        | 12.5 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| BUG BUZZ         | 30.4 DPS 2 BAR    | <span class="bug"> BUG  </span>
+| PSYCHIC          | 35.7 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| SIGNAL BEAM      | 32.3 DPS 2 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #015 BEEDRILL    |                   | <span class="bug">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| BUG BITE         | 0000 DPS        L | <span class="bug"> BUG  </span>
+| INFESTATION      | 11.4 DPS          | <span class="bug"> BUG  </span>
+| POISON JAB       | 15.6 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| AERIAL ACE       | 22.9 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| X SCISSOR        | 35.2 DPS 3 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #018 PIDGEOT     |                   | <span class="nrm">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| WING ATTACK      | 0000 DPS        L | <span class="fly"> FLY  </span>
+| AIR SLASH        | 14.6 DPS          | <span class="fly"> FLY  </span>
+| STEEL WING       | 13.8 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| AIR CUTTER       | 27.8 DPS 2 BAR  L | <span class="fly"> FLY  </span>
+| HURRICANE        | 50.9 DPS 1 BAR    | <span class="fly"> FLY  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| BRAVE BIRD       | 56.3 DPS ? BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #020 RATICATE    |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| BITE             | 12.0 DPS          | <span class="drk"> DRK  </span>
+| QUICK ATTACK     | 12.5 DPS          | <span class="nrm"> NRM  </span>
+|------------------+-------------------|
+| DIG              | 21.3 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| HYPER FANG       | 40.0 DPS 2 BAR    | <span class="nrm"> NRM  </span>
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #022 FEAROW      |                   | <span class="nrm">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| PECK             | 12.5 DPS          | <span class="fly"> FLY  </span>
+| STEEL WING       | 13.8 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| TWISTER          | 0000 DPS 3 BAR  L | <span class="dgn"> DGN  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| DRILL RUN        | 28.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| SKY ATTACK       | 43.8 DPS 2 BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #024 ARBOK       |                   | <span class="psn">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| BITE             | 12.0 DPS          | <span class="drk"> DRK  </span>
+| ACID             | 14.1 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| DARK PULSE       | 26.7 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+| GUNK SHOT        | 52.4 DPS 1 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #026 RAICHU      |                   | <span class="ele">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| THUNDER SHOCK    | 0000 DPS        L | <span class="ele"> ELE  </span>
+| VOLT SWITCH      | 10.9 DPS          | <span class="ele"> ELE  </span>
+| SPARK            | 10.6 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| THUNDER          | 52.1 DPS 1 BAR  L | <span class="ele"> ELE  </span>
+| BRICK BREAK      | 25.0 DPS 3 BAR    | <span class="ftg"> FTG  </span>
+| THUNDER PUNCH    | 31.3 DPS 3 BAR    | <span class="ele"> ELE  </span>
+| WILD CHARGE      | 43.3 DPS ? BAR    | <span class="ele"> ELE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #028 SANDSLASH   |                   | <span class="grd">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| METAL CLAW       | 11.4 DPS          | <span class="stl"> STL  </span>
+| MUD SHOT         | 10.4 DPS          | <span class="grd"> GRD  </span>
+|------------------+-------------------|
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| ROCK TOMB        | 21.9 DPS 2 BAR    | <span class="rck"> RCK  </span>
+| BULLDOZE         | 28.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #031 NIDOQUEEN   |                   | <span class="psn">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| POISON JAB       | 15.6 DPS          | <span class="psn"> PSN  </span>
+| BITE             | 12.0 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+| STONE EDGE       | 43.5 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #034 NIDOKING    |                   | <span class="psn">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| FURY CUTTER      | 0000 DPS        L | <span class="bug"> BUG  </span>
+| POISON JAB       | 15.6 DPS          | <span class="psn"> PSN  </span>
+| IRON TAIL        | 13.6 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+| MEGAHORN         | 40.9 DPS 1 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #036 CLEFABLE    |                   | <span class="fry">   </span><span class="fry">   </span>
+|------------------+-------------------|
+| POUND            | 0000 DPS        L | <span class="nrm"> NRM  </span>
+| CHARGE BEAM      | 07.3 DPS          | <span class="ele"> ELE  </span>
+| ZEN HEADBUTT     | 10.9 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| DAZZLING GLEAM   | 35.7 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| PSYCHIC          | 35.7 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| MOONBLAST        | 41.7 DPS 1 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #038 NINETALES   |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS        L | <span class="fir"> FIR  </span>
+| FEINT ATTACK     | 11.1 DPS          | <span class="drk"> DRK  </span>
+| FIRE SPIN        | 15.9 DPS          | <span class="fir"> FIR  </span>
+|------------------+-------------------|
+| FLAMETHROWER     | 39.8 DPS 2 BAR  L | <span class="fir"> FIR  </span>
+| FIRE BLAST       | 41.7 DPS 1 BAR  L | <span class="fir"> FIR  </span>
+| HEAT WAVE        | 39.6 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| OVERHEAT         | 50.0 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| SOLAR BEAM       | 36.7 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #040 WIGGLYTUFF  |                   | <span class="nrm">   </span><span class="fry">   </span>
+|------------------+-------------------|
+| POUND            | 14.6 DPS          | <span class="nrm"> NRM  </span>
+| FEINT ATTACK     | 11.1 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| DAZZLING GLEAM   | 35.7 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+| PLAY ROUGH       | 38.8 DPS 2 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #045 VILEPLUME   |                   | <span class="grs">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 0000 DPS          | <span class="grs"> GRS  </span>
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| PETAL BLIZZARD   | 52.9 DPS ? BAR    | <span class="grs"> GRS  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+| MOONBLAST        | 33.3 DPS 1 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #047 PARASECT    |                   | <span class="bug">   </span><span class="grs">   </span>
+|------------------+-------------------|
+| BUG BITE         | 0000 DPS        L | <span class="bug"> BUG  </span>
+| STRUGGLE BUG     | 0000 DPS          | <span class="bug"> BUG  </span>
+| FURY CUTTER      | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| CROSS POISON     | 26.7 DPS 3 BAR    | <span class="psn"> PSN  </span>
+| X SCISSOR        | 35.2 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #049 VENOMOTH    |                   | <span class="bug">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| BUG BITE         | 0000 DPS        L | <span class="bug"> BUG  </span>
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| POISON FANG      | 25.7 DPS 3 BAR  L | <span class="psn"> PSN  </span>
+| SILVER WIND      | 23.6 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| PSYCHIC          | 35.7 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| BUG BUZZ         | 30.4 DPS 2 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #051 DUGTRIO     |                   | <span class="grd">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| SUCKER PUNCH     | 0000 DPS          | <span class="drk"> DRK  </span>
+| MUD SLAP         | 0000 DPS          | <span class="grd"> GRD  </span>
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+|------------------+-------------------|
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| MUD BOMB         | 29.9 DPS 3 BAR    | <span class="grd"> GRD  </span>
+| STONE EDGE       | 43.5 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #053 PERSIAN     |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| SCRATCH          | 0000 DPS          | <span class="nrm"> NRM  </span>
+| FEINT ATTACK     | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| NIGHT SLASH      | 22.7 DPS 3 BAR  L | <span class="drk"> DRK  </span>
+| FOUL PLAY        | 35.0 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| POWER GEM        | 27.6 DPS 2 BAR    | <span class="rck"> RCK  </span>
+| PLAY ROUGH       | 31.0 DPS 2 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #055 GOLDUCK     |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYCHIC          | 35.7 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #057 PRIMEAPE    |                   | <span class="ftg">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| KARATE CHOP      | 0000 DPS        L | <span class="ftg"> FTG  </span>
+| LOW KICK         | 0000 DPS          | <span class="ftg"> FTG  </span>
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| CROSS CHOP       | 41.7 DPS 2 BAR  L | <span class="ftg"> FTG  </span>
+| CLOSE COMBAT     | 54.3 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+| LOW SWEEP        | 26.3 DPS 3 BAR    | <span class="ftg"> FTG  </span>
+| NIGHT SLASH      | 22.7 DPS 3 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #059 ARCANINE    |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| BITE             | 0000 DPS        L | <span class="drk"> DRK  </span>
+| FIRE FANG        | 0000 DPS          | <span class="fir"> FIR  </span>
+| SNARL            | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| FLAMETHROWER     | 39.8 DPS 2 BAR  L | <span class="fir"> FIR  </span>
+| BULLDOZE         | 0000 DPS 2 BAR  L | <span class="grd"> GRD  </span>
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| WILD CHARGE      | 34.6 DPS ? BAR    | <span class="ele"> ELE  </span>
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #062 POLIWRATH   |                   | <span class="wtr">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| MUD SHOT         | 0000 DPS        L | <span class="grd"> GRD  </span>
+| BUBBLE           | 0000 DPS          | <span class="wtr"> WTR  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| SUBMISSION       | 34.1 DPS 2 BAR  L | <span class="ftg"> FTG  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| DYNAMIC PUNCH    | 41.7 DPS 2 BAR    | <span class="ftg"> FTG  </span>
+| ICE PUNCH        | 26.3 DPS 3 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #065 ALAKAZAM    |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| PSYCHO CUT       | 0000 DPS          | <span class="psy"> PSY  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYCHIC          | 44.6 DPS 1 BAR  L | <span class="psy"> PSY  </span>
+| DAZZLING GLEAM   | 28.6 DPS 2 BAR  L | <span class="fry"> FRY  </span>
+| FUTURESIGHT      | 55.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| FOCUS BLAST      | 40.0 DPS ? BAR    | <span class="ftg"> FTG  </span>
+| SHADOW BALL      | 33.3 DPS 2 BAR    | <span class="gst"> GST  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #068 MACHAMP     |                   | <span class="ftg">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| KARATE CHOP      | 0000 DPS        L | <span class="ftg"> FTG  </span>
+| BULLET PUNCH     | 0000 DPS          | <span class="stl"> STL  </span>
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| STONE EDGE       | 43.5 DPS 1 BAR  L | <span class="rck"> RCK  </span>
+| SUBMISSION       | 34.1 DPS 2 BAR  L | <span class="ftg"> FTG  </span>
+| CROSS CHOP       | 41.7 DPS 2 BAR  L | <span class="ftg"> FTG  </span>
+| HEAVY SLAM       | 33.3 DPS ? BAR    | <span class="stl"> STL  </span>
+| DYNAMIC PUNCH    | 41.7 DPS 2 BAR    | <span class="ftg"> FTG  </span>
+| CLOSE COMBAT     | 54.3 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #071 VICTREEBEL  |                   | <span class="grs">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 0000 DPS          | <span class="grs"> GRS  </span>
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| LEAF BLADE       | 36.5 DPS 3 BAR    | <span class="grs"> GRS  </span>
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #073 TENTACRUEL  |                   | <span class="wtr">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+| POISON JAB       | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+| BLIZZARD         | 41.9 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #076 GOLEM       |                   | <span class="rck">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| ROCK THROW       | 0000 DPS          | <span class="rck"> RCK  </span>
+| MUD SLAP         | 0000 DPS          | <span class="grd"> GRD  </span>
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+|------------------+-------------------|
+| ANCIENT POWER    | 25.0 DPS 3 BAR  L | <span class="rck"> RCK  </span>
+| STONE EDGE       | 54.3 DPS 1 BAR    | <span class="rck"> RCK  </span>
+| ROCK BLAST       | 29.8 DPS ? BAR    | <span class="rck"> RCK  </span>
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #078 RAPIDASH    |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS        L | <span class="fir"> FIR  </span>
+| LOW KICK         | 0000 DPS          | <span class="ftg"> FTG  </span>
+| FIRE SPIN        | 0000 DPS          | <span class="fir"> FIR  </span>
+|------------------+-------------------|
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| DRILL RUN        | 28.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| HEAT WAVE        | 39.6 DPS 1 BAR    | <span class="fir"> FIR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #080 SLOWBRO     |                   | <span class="wtr">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #082 MAGNETON    |                   | <span class="ele">   </span><span class="stl">   </span>
+|------------------+-------------------|
+| THUNDER SHOCK    | 0000 DPS        L | <span class="ele"> ELE  </span>
+| SPARK            | 0000 DPS          | <span class="ele"> ELE  </span>
+| CHARGE BEAM      | 0000 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| DISCHARGE        | 32.5 DPS 3 BAR  L | <span class="ele"> ELE  </span>
+| ZAP CANNON       | 47.3 DPS ? BAR    | <span class="ele"> ELE  </span>
+| MAGNET BOMB      | 31.3 DPS 3 BAR    | <span class="stl"> STL  </span>
+| FLASH CANNON     | 46.3 DPS 1 BAR    | <span class="stl"> STL  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #083 FARFETCH'D  |                   | <span class="nrm">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| CUT              | 0000 DPS        L | <span class="nrm"> NRM  </span>
+| AIR SLASH        | 0000 DPS          | <span class="fly"> FLY  </span>
+| FURY CUTTER      | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| AIR CUTTER       | 27.8 DPS 2 BAR    | <span class="fly"> FLY  </span>
+| LEAF BLADE       | 29.2 DPS 3 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #085 DODRIO      |                   | <span class="nrm">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| FEINT ATTACK     | 0000 DPS          | <span class="drk"> DRK  </span>
+| STEEL WING       | 0000 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| AIR CUTTER       | 27.8 DPS 2 BAR  L | <span class="fly"> FLY  </span>
+| DRILL PECK       | 32.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| BRAVE BIRD       | 56.3 DPS ? BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #087 DEWGONG     |                   | <span class="wtr">   </span><span class="ice">   </span>
+|------------------+-------------------|
+| ICE SHARD        | 0000 DPS        L | <span class="ice"> ICE  </span>
+| FROST BREATH     | 0000 DPS          | <span class="ice"> ICE  </span>
+| IRON TAIL        | 0000 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| ICY WIND         | 18.2 DPS 3 BAR  L | <span class="ice"> ICE  </span>
+| AQUA JET         | 21.6 DPS 3 BAR  L | <span class="wtr"> WTR  </span>
+| AURORA BEAM      | 28.2 DPS 2 BAR    | <span class="ice"> ICE  </span>
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+| BLIZZARD         | 52.4 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #089 MUK         |                   | <span class="psn">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| LICK             | 0000 DPS        L | <span class="psn"> PSN  </span>
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+| POISON JAB       | 0000 DPS          | <span class="psn"> PSN  </span>
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| DARK PULSE       | 26.7 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| GUNK SHOT        | 52.4 DPS 1 BAR    | <span class="psn"> PSN  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #091 CLOYSTER    |                   | <span class="wtr">   </span><span class="ice">   </span>
+|------------------+-------------------|
+| FROST BREATH     | 0000 DPS          | <span class="ice"> ICE  </span>
+| ICE SHARD        | 0000 DPS          | <span class="ice"> ICE  </span>
+|------------------+-------------------|
+| ICY WIND         | 18.2 DPS 3 BAR  L | <span class="ice"> ICE  </span>
+| BLIZZARD         | 52.4 DPS 1 BAR  L | <span class="ice"> ICE  </span>
+| AURORA BEAM      | 28.2 DPS 2 BAR    | <span class="ice"> ICE  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| AVALANCHE        | 41.7 DPS 2 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #094 GENGAR      |                   | <span class="gst">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| SHADOW CLAW      | 0000 DPS        L | <span class="gst"> GST  </span>
+| SUCKER PUNCH     | 0000 DPS          | <span class="drk"> DRK  </span>
+| HEX              | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| DARK PULSE       | 26.7 DPS 2 BAR  L | <span class="drk"> DRK  </span>
+| SHADOW BALL      | 41.7 DPS 2 BAR    | <span class="gst"> GST  </span>
+| FOCUS BLAST      | 40.0 DPS ? BAR    | <span class="ftg"> FTG  </span>
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| SLUDGE WAVE      | 43.0 DPS 1 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #097 HYPNO       |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYSHOCK         | 30.1 DPS 3 BAR  L | <span class="psy"> PSY  </span>
+| SHADOW BALL      | 33.3 DPS 2 BAR  L | <span class="gst"> GST  </span>
+| FUTURESIGHT      | 55.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| FOCUS BLAST      | 40.0 DPS ? BAR    | <span class="ftg"> FTG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #099 KINGLER     |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| MUD SHOT         | 0000 DPS        L | <span class="grd"> GRD  </span>
+| BUBBLE           | 0000 DPS          | <span class="wtr"> WTR  </span>
+| METAL CLAW       | 0000 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| VICE GRIP        | 18.4 DPS 3 BAR    | <span class="nrm"> NRM  </span>
+| X SCISSOR        | 28.1 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #101 ELECTRODE   |                   | <span class="ele">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS        L | <span class="nrm"> NRM  </span>
+| SPARK            | 0000 DPS          | <span class="ele"> ELE  </span>
+| VOLT SWITCH      | 0000 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| DISCHARGE        | 32.5 DPS 3 BAR    | <span class="ele"> ELE  </span>
+| THUNDERBOLT      | 40.0 DPS 2 BAR    | <span class="ele"> ELE  </span>
+| HYPER BEAM       | 39.5 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #103 EXEGGUTOR   |                   | <span class="grs">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| ZEN HEADBUTT     | 0000 DPS        L | <span class="psy"> PSY  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+| EXTRASENSORY     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| SEED BOMB        | 32.7 DPS 3 BAR    | <span class="grs"> GRS  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #105 MAROWAK     |                   | <span class="grd">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| MUD SLAP         | 0000 DPS          | <span class="grd"> GRD  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| BONE CLUB        | 31.3 DPS 3 BAR    | <span class="grd"> GRD  </span>
+| DIG              | 26.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #106 HITMONLEE   |                   | <span class="ftg">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| LOW KICK         | 0000 DPS          | <span class="ftg"> FTG  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| BRICK BREAK      | 31.3 DPS 3 BAR  L | <span class="ftg"> FTG  </span>
+| CLOSE COMBAT     | 54.3 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+| LOW SWEEP        | 26.3 DPS 3 BAR    | <span class="ftg"> FTG  </span>
+| STONE EDGE       | 43.5 DPS 1 BAR    | <span class="rck"> RCK  </span>
+| STOMP            | 32.4 DPS 2 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #107 HITMONCHAN  |                   | <span class="ftg">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| ROCK SMASH       | 0000 DPS        L | <span class="ftg"> FTG  </span>
+| BULLET PUNCH     | 0000 DPS          | <span class="stl"> STL  </span>
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| BRICK BREAK      | 31.3 DPS 3 BAR  L | <span class="ftg"> FTG  </span>
+| FIRE PUNCH       | 25.0 DPS 3 BAR    | <span class="fir"> FIR  </span>
+| ICE PUNCH        | 26.3 DPS 3 BAR    | <span class="ice"> ICE  </span>
+| THUNDER PUNCH    | 25.0 DPS 3 BAR    | <span class="ele"> ELE  </span>
+| CLOSE COMBAT     | 54.3 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #108 LICKITUNG   |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| LICK             | 0000 DPS          | <span class="gst"> GST  </span>
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+| STOMP            | 40.4 DPS 2 BAR    | <span class="nrm"> NRM  </span>
+| POWER WHIP       | 34.6 DPS 2 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #110 WEEZING     |                   | <span class="psn">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS          | <span class="nrm"> NRM  </span>
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| SHADOW BALL      | 33.3 DPS 2 BAR    | <span class="gst"> GST  </span>
+| DARK PULSE       | 26.7 DPS 2 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #112 RHYDON      |                   | <span class="grd">   </span><span class="rck">   </span>
+|------------------+-------------------|
+| MUD SLAP         | 0000 DPS          | <span class="grd"> GRD  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FRG  </span>
+|------------------+-------------------|
+| MEGAHORN         | 40.9 DPS 1 BAR    | <span class="bug"> BUG  </span>
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| STONE EDGE       | 54.3 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #114 TANGELA     |                   | <span class="grs">   </span><span class="grs">   </span>
+|------------------+-------------------|
+| VINE WHIP        | 0000 DPS          | <span class="grs"> GRS  </span>
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| POWER WHIP       | 43.3 DPS 2 BAR    | <span class="grs"> GRS  </span>
+| GRASS KNOT       | 43.3 DPS 2 BAR    | <span class="grs"> GRS  </span>
+| SLUDGE BOMB      | 34.8 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #115 KANGASKHAN  |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| MUD SLAP         | 0000 DPS          | <span class="grd"> GRD  </span>
+| LOW KICK         | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| BRICK BREAK      | 25.0 DPS 3 BAR  L | <span class="ftg"> FTG  </span>
+| STOMP            | 40.4 DPS 2 BAR  L | <span class="nrm"> NRM  </span>
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| OUTRAGE          | 28.2 DPS ? BAR    | <span class="dgn"> DGN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #119 SEAKING     |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| PECK             | 0000 DPS          | <span class="fly"> FLY  </span>
+| POISON JAB       | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| ICY WIND         | 0000 DPS 3 BAR  L | <span class="wtr"> WTR  </span>
+| DRILL RUN        | 28.6 DPS 2 BAR  L | <span class="grd"> GRD  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+| MEGAHORN         | 40.9 DPS 1 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #121 STARMIE     |                   | <span class="wtr">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS        L | <span class="nrm"> NRM  </span>
+| HIDDEN POWER     | 0000 DPS          | <span class="nrm"> NRM  </span>
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| QUICK ATTACK     | 0000 DPS          | <span class="nrm"> NRM  </span>
+|------------------+-------------------|
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| POWER GEM        | 27.6 DPS 2 BAR    | <span class="rck"> RCK  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| PSYBEAM          | 27.3 DPS 2 BAR    | <span class="psy"> PSY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #122 MR. MIME    |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYBEAM          | 27.3 DPS 2 BAR    | <span class="psy"> PSY  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| SHADOW BALL      | 33.3 DPS 2 BAR    | <span class="gst"> GST  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #124 JYNX        |                   | <span class="ice">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| POUND            | 0000 DPS        L | <span class="nrm"> NRM  </span>
+| FROST BREATH     | 0000 DPS          | <span class="ice"> ICE  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| ICE PUNCH        | 32.9 DPS 3 BAR  L | <span class="ice"> ICE  </span>
+| DRAINING KISS    | 23.1 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| AVALANCHE        | 41.7 DPS 2 BAR    | <span class="ice"> ICE  </span>
+| PSYSHOCK         | 30.1 DPS 3 BAR    | <span class="psy"> PSY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #125 ELECTABUZZ  |                   | <span class="ele">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| THUNDER SHOCK    | 0000 DPS          | <span class="ele"> ELE  </span>
+| LOW KICK         | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| THUNDER PUNCH    | 31.3 DPS 3 BAR    | <span class="ele"> ELE  </span>
+| THUNDERBOLT      | 40.0 DPS 2 BAR    | <span class="ele"> ELE  </span>
+| THUNDER          | 52.1 DPS 1 BAR    | <span class="ele"> ELE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #126 MAGMAR      |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS          | <span class="fir"> FIR  </span>
+| KARATE CHOP      | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| FIRE PUNCH       | 31.3 DPS 3 BAR    | <span class="fir"> FIR  </span>
+| FLAMETHROWER     | 39.8 DPS 2 BAR    | <span class="fir"> FIR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #127 PINSIR      |                   | <span class="bug">   </span><span class="bug">   </span>
+|------------------+-------------------|
+| FURY CUTTER      | 0000 DPS        L | <span class="bug"> BUG  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+| BUG BITE         | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| SUBMISSION       | 0000 DPS 2 BAR  L | <span class="ftg"> FTG  </span>
+| VICE GRIP        | 18.4 DPS 3 BAR    | <span class="nrm"> NRM  </span>
+| X SCISSOR        | 35.2 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| CLOSE COMBAT     | 43.5 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #128 TAUROS      |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS          | <span class="nrm"> NRM  </span>
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| HORN ATTACK      | 27.0 DPS 3 BAR    | <span class="nrm"> NRM  </span>
+| IRON HEAD        | 31.6 DPS 2 BAR    | <span class="stl"> STL  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #130 GYARADOS    |                   | <span class="wtr">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+| DRAGON TAIL      | 0000 DPS          | <span class="dgn"> DGN  </span>
+| DRAGON BREATH    | 0000 DPS          | <span class="dgn"> DGN  </span>
+|------------------+-------------------|
+| TWISTER          | 0000 DPS 3 BAR  L | <span class="dgn"> DGN  </span>
+| DRAGON PULSE     | 0000 DPS ? BAR  L | <span class="dgn"> DGN  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+| OUTRAGE          | 28.2 DPS ? BAR    | <span class="dgn"> DGN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #131 LAPRAS      |                   | <span class="wtr">   </span><span class="ice">   </span>
+|------------------+-------------------|
+| ICE SHARD        | 0000 DPS        L | <span class="ice"> ICE  </span>
+| FROST BREATH     | 0000 DPS          | <span class="ice"> ICE  </span>
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| DRAGON PULSE     | 0000 DPS ? BAR  L | <span class="dgn"> DGN  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| ICE BEAM         | 34.1 DPS 1 BAR    | <span class="ice"> ICE  </span>
+| BLIZZARD         | 52.4 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #134 VAPOREON    |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| AQUA TAIL        | 32.9 DPS 3 BAR    | <span class="wtr"> WTR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #135 JOLTEON     |                   | <span class="ele">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| THUNDER SHOCK    | 0000 DPS          | <span class="ele"> ELE  </span>
+| VOLT SWITCH      | 0000 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| DISCHARGE        | 32.5 DPS 3 BAR    | <span class="ele"> ELE  </span>
+| THUNDERBOLT      | 40.0 DPS 2 BAR    | <span class="ele"> ELE  </span>
+| THUNDER          | 52.1 DPS 1 BAR    | <span class="ele"> ELE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #136 FLAREON     |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS          | <span class="fir"> FIR  </span>
+| FIRE SPIN        | 0000 DPS          | <span class="fir"> FIR  </span>
+|------------------+-------------------|
+| HEAT WAVE        | 39.6 DPS 1 BAR  L | <span class="fir"> FIR  </span>
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| FLAMETHROWER     | 39.8 DPS 2 BAR    | <span class="fir"> FIR  </span>
+| OVERHEAT         | 50.0 DPS 1 BAR    | <span class="fir"> FIR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #139 OMASTAR     |                   | <span class="rck">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| ROCK THROW       | 0000 DPS          | <span class="rck"> RCK  </span>
+|------------------+-------------------|
+| ROCK SLIDE       | 37.0 DPS 2 BAR  L | <span class="rck"> RCK  </span>
+| ANCIENT POWER    | 25.0 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| ROCK BLAST       | 29.8 DPS ? BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #141 KABUTOPS    |                   | <span class="rck">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| FURY CUTTER      | 0000 DPS        L | <span class="bug"> BUG  </span>
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| ANCIENT POWER    | 25.0 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| WATER PULSE      | 27.3 DPS 2 BAR    | <span class="wtr"> WTR  </span>
+| STONE EDGE       | 54.3 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #142 AERODACTYL  |                   | <span class="rck">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| STEEL WING       | 0000 DPS          | <span class="stl"> STL  </span>
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| ANCIENT POWER    | 25.0 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| IRON HEAD        | 31.6 DPS 2 BAR    | <span class="stl"> STL  </span>
+| HYPER BEAM       | 39.5 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #143 SNORLAX     |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+| LICK             | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| BODY SLAM        | 32.9 DPS 3 BAR  L | <span class="nrm"> NRM  </span>
+| HEAVY SLAM       | 33.3 DPS ? BAR    | <span class="stl"> STL  </span>
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #149 DRAGONITE   |                   | <span class="dgn">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| DRAGON BREATH    | 0000 DPS        L | <span class="dgn"> DGN  </span>
+| DRAGON TAIL      | 0000 DPS          | <span class="dgn"> DGN  </span>
+| STEEL WING       | 0000 DPS          | <span class="stl"> STL  </span>
+|------------------+-------------------|
+| DRAGON PULSE     | 31.3 DPS ? BAR  L | <span class="dgn"> DGN  </span>
+| DRAGON CLAW      | 0000 DPS ? BAR  L | <span class="dgn"> DGN  </span>
+| HURRICANE        | 50.9 DPS 1 BAR    | <span class="fly"> FLY  </span>
+| HYPER BEAM       | 39.5 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+| OUTRAGE          | 35.3 DPS ? BAR    | <span class="dgn"> DGN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #154 MEGANIUM    |                   | <span class="grs">   </span><span class="grs">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 0000 DPS          | <span class="grs"> GRS  </span>
+| VINE WHIP        | 0000 DPS          | <span class="grs"> GRS  </span>
+|------------------+-------------------|
+| PETAL BLIZZARD   | 52.9 DPS ? BAR    | <span class="grs"> GRS  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #157 TYPHLOSION  |                   | <span class="fir">   </span><span class="fir">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS          | <span class="fir"> FIR  </span>
+| SHADOW CLAW      | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| FIRE BLAST       | 41.7 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| OVERHEAT         | 50.0 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| SOLAR BEAM       | 36.7 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #160 FERALIGATR  |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #162 FURRET      |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| QUICK ATTACK     | 0000 DPS          | <span class="nrm"> NRM  </span>
+| SUCKER PUNCH     | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| DIG              | 21.3 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| BRICK BREAK      | 25.0 DPS 3 BAR    | <span class="ftg"> FTG  </span>
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #164 NOCTOWL     |                   | <span class="nrm">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| WING ATTACK      | 0000 DPS          | <span class="fly"> FLY  </span>
+| EXTRASENSORY     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYCHIC          | 35.7 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| SKY ATTACK       | 43.8 DPS 2 BAR    | <span class="fly"> FLY  </span>
+| NIGHT SHADE      | 23.1 DPS 2 BAR    | <span class="gst"> GST  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #166 LEDIAN      |                   | <span class="bug">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| STRUGGLE BUG     | 0000 DPS          | <span class="bug"> BUG  </span>
+| BUG BITE         | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| BUG BUZZ         | 30.4 DPS 2 BAR    | <span class="bug"> BUG  </span>
+| SILVER WIND      | 23.6 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #168 ARIADOS     |                   | <span class="bug">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| POISON STING     | 0000 DPS          | <span class="psn"> PSN  </span>
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| SHADOW SNEAK     | 17.2 DPS 3 BAR    | <span class="gst"> GST  </span>
+| MEGAHORN         | 51.1 DPS 1 BAR    | <span class="bug"> BUG  </span>
+| CROSS POISON     | 33.3 DPS 3 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #169 CROBAT      |                   | <span class="psn">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| AIR SLASH        | 0000 DPS          | <span class="fly"> FLY  </span>
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| SHADOW BALL      | 33.3 DPS 2 BAR    | <span class="gst"> GST  </span>
+| AIR CUTTER       | 27.8 DPS 2 BAR    | <span class="fly"> FLY  </span>
+| SLUDGE BOMB      | 43.5 DPS 2 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #171 LANTURN     |                   | <span class="wtr">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| CHARGE BEAM      | 0000 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| THUNDERBOLT      | 40.0 DPS 2 BAR    | <span class="ele"> ELE  </span>
+| THUNDER          | 52.1 DPS 1 BAR    | <span class="ele"> ELE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #176 TOGETIC     |                   | <span class="fry">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| EXTRASENSORY     | 0000 DPS          | <span class="psy"> PSY  </span>
+| HIDDEN POWER     | 0000 DPS          | <span class="nrm"> NRM  </span>
+|------------------+-------------------|
+| ANCIENT POWER    | 20.0 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| DAZZLING GLEAM   | 35.7 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #178 XATU        |                   | <span class="psy">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| AIR SLASH        | 0000 DPS          | <span class="fly"> FLY  </span>
+| FEINT ATTACK     | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| OMINOUS WIND     | 21.7 DPS 3 BAR    | <span class="gst"> GST  </span>
+| FUTURESIGHT      | 55.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #181 AMPHAROS    |                   | <span class="ele">   </span><span class="ele">   </span>
+|------------------+-------------------|
+| CHARGE BEAM      | 0000 DPS          | <span class="ele"> ELE  </span>
+| VOLT SWITCH      | 0000 DPS          | <span class="ele"> ELE  </span>
+|------------------+-------------------|
+| ZAP CANNON       | 47.3 DPS ? BAR    | <span class="ele"> ELE  </span>
+| FOCUS BLAST      | 40.0 DPS ? BAR    | <span class="ftg"> FTG  </span>
+| THUNDER          | 52.1 DPS 1 BAR    | <span class="ele"> ELE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #182 BELLOSSOM   |                   | <span class="grs">   </span><span class="grs">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 0000 DPS          | <span class="grs"> GRS  </span>
+| ACID             | 0000 DPS          | <span class="psn"> PSN  </span>
+|------------------+-------------------|
+| LEAF BLADE       | 36.5 DPS 3 BAR    | <span class="grs"> GRS  </span>
+| PETAL BLIZZARD   | 52.9 DPS ? BAR    | <span class="grs"> GRS  </span>
+| DAZZLING GLEAM   | 28.6 DPS 2 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #184 AZUMARILL   |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| ROCK SMASH       | 0000 DPS          | <span class="ftg"> FTG  </span>
+| BUBBLE           | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| PLAY ROUGH       | 38.8 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| ICE BEAM         | 27.3 DPS 1 BAR    | <span class="ice"> ICE  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #185 SUDOWOODO   |                   | <span class="rck">   </span><span class="rck">   </span>
+|------------------+-------------------|
+| ROCK THROW       | 0000 DPS          | <span class="rck"> RCK  </span>
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| STONE EDGE       | 54.3 DPS 1 BAR    | <span class="rck"> RCK  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| ROCK SLIDE       | 37.0 DPS 2 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #186 POLITOED    |                   | <span class="wtr">   </span><span class="wtr">   </span>
+|------------------+-------------------|
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+| BUBBLE           | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| HYDRO PUMP       | 49.2 DPS 1 BAR    | <span class="wtr"> WTR  </span>
+| BLIZZARD         | 41.9 DPS 1 BAR    | <span class="ice"> ICE  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #189 JUMPLUFF    |                   | <span class="grs">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| INFESTATION      | 0000 DPS          | <span class="bug"> BUG  </span>
+| BULLET SEED      | 0000 DPS          | <span class="grs"> GRS  </span>
+|------------------+-------------------|
+| ENERGY BALL      | 28.8 DPS 2 BAR    | <span class="grs"> GRS  </span>
+| DAZZLING GLEAM   | 28.6 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #190 AIPOM       |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| SCRATCH          | 0000 DPS          | <span class="nrm"> NRM  </span>
+| ASTONISH         | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| LOW SWEEP        | 21.1 DPS 3 BAR    | <span class="ftg"> FTG  </span>
+| SWIFT            | 26.8 DPS 2 BAR    | <span class="nrm"> NRM  </span>
+| AERIAL ACE       | 22.9 DPS 3 BAR    | <span class="fly"> FLY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #192 SUNFLORA    |                   | <span class="grs">   </span><span class="grs">   </span>
+|------------------+-------------------|
+| RAZOR LEAF       | 0000 DPS          | <span class="grs"> GRS  </span>
+| BULLET SEED      | 0000 DPS          | <span class="grs"> GRS  </span>
+|------------------+-------------------|
+| SOLAR BEAM       | 45.9 DPS 1 BAR    | <span class="grs"> GRS  </span>
+| PETAL BLIZZARD   | 52.9 DPS ? BAR    | <span class="grs"> GRS  </span>
+| SLUDGE BOMB      | 34.8 DPS 2 BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #193 YANMA       |                   | <span class="bug">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| QUICK ATTACK     | 0000 DPS          | <span class="nrm"> NRM  </span>
+| WING ATTACK      | 0000 DPS          | <span class="fly"> FLY  </span>
+|------------------+-------------------|
+| ANCIENT POWER    | 20.0 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| SILVER WIND      | 23.6 DPS 3 BAR    | <span class="bug"> BUG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #195 QUAGSIRE    |                   | <span class="wtr">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| MUD SHOT         | 0000 DPS          | <span class="grd"> GRD  </span>
+|------------------+-------------------|
+| SLUDGE BOMB      | 34.8 DPS 2 BAR    | <span class="psn"> PSN  </span>
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| STONE EDGE       | 43.5 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #196 ESPEON      |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+| ZEN HEADBUTT     | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYBEAM          | 27.3 DPS 2 BAR    | <span class="psy"> PSY  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| FUTURESIGHT      | 55.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #197 UMBREON     |                   | <span class="drk">   </span><span class="drk">   </span>
+|------------------+-------------------|
+| FEINT ATTACK     | 0000 DPS          | <span class="drk"> DRK  </span>
+| SNARL            | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| DARK PULSE       | 33.3 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| FOUL PLAY        | 43.8 DPS 2 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #198 MURKROW     |                   | <span class="drk">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| PECK             | 0000 DPS          | <span class="fly"> FLY  </span>
+| FEINT ATTACk     | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| DRILL PECK       | 32.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| FOUL PLAY        | 43.8 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| DARK PULSE       | 33.3 DPS 2 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #199 SLOWKING    |                   | <span class="wtr">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| BLIZZARD         | 41.9 DPS 1 BAR    | <span class="ice"> ICE  </span>
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| FIRE BLAST       | 33.3 DPS 1 BAR    | <span class="fir"> FIR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #200 MISDREAVUS  |                   | <span class="gst">   </span><span class="gst">   </span>
+|------------------+-------------------|
+| ASTONISH         | 0000 DPS          | <span class="gst"> GST  </span>
+| HEX              | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| SHADOW SNEAK     | 21.6 DPS 3 BAR    | <span class="gst"> GST  </span>
+| DARK PULSE       | 26.7 DPS 2 BAR    | <span class="drk"> DRK  </span>
+| OMINOUS WIND     | 27.2 DPS 3 BAR    | <span class="gst"> GST  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #201 UNOWN       |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| HIDDEN POWER     | 0000 DPS          | <span class="nrm"> NRM  </span>
+|------------------+-------------------|
+| STRUGGLE         | 15.9 DPS 3 BAR    | <span class="nrm"> NRM  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #202 WOBBUFFET   |                   | <span class="psy">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+| SPLASH           | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| MIRROR COAT      | 28.8 DPS ? BAR    | <span class="psy"> PSY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #203 GIRAFARIG   |                   | <span class="nrm">   </span><span class="psy">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS          | <span class="nrm"> NRM  </span>
+| CONFUSION        | 0000 DPS          | <span class="psy"> PSY  </span>
+|------------------+-------------------|
+| PSYCHIC          | 44.6 DPS 1 BAR    | <span class="psy"> PSY  </span>
+| THUNDERBOLT      | 32.0 DPS 2 BAR    | <span class="ele"> ELE  </span>
+| MIRROR COAT      | 28.8 DPS ? BAR    | <span class="psy"> PSY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #205 FORRETRESS  |                   | <span class="bug">   </span><span class="stl">   </span>
+|------------------+-------------------|
+| BUG BITE         | 0000 DPS          | <span class="bug"> BUG  </span>
+| STRUGGLE BUG     | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| HEAVY SLAM       | 41.7 DPS ? BAR    | <span class="stl"> STL  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| ROCK TOMB        | 21.9 DPS 2 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #206 DUNSPARCE   |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+| ASTONISH         | 0000 DPS          | <span class="gst"> GST  </span>
+|------------------+-------------------|
+| DIG              | 0000 DPS ? BAR    | <span class="grd"> GRD  </span>
+| ROCK SLIDE       | 0000 DPS ? BAR    | <span class="rck"> RCK  </span>
+| DRILL RUN        | 0000 DPS ? BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #207 GLIGAR      |                   | <span class="grd">   </span><span class="fly">   </span>
+|------------------+-------------------|
+| FURY CUTTER      | 0000 DPS          | <span class="bug"> BUG  </span>
+| WING ATTACK      | 0000 DPS          | <span class="fly"> FLY  </span>
+|------------------+-------------------|
+| DIG              | 26.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| AERIAL ACE       | 28.6 DPS 3 BAR    | <span class="fly"> FLY  </span>
+| NIGHT SLASH      | 22.7 DPS 3 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #208 STEELIX     |                   | <span class="stl">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| IRON TAIL        | 0000 DPS          | <span class="stl"> STL  </span>
+| DRAGON TAIL      | 0000 DPS          | <span class="dgn"> DGN  </span>
+|------------------+-------------------|
+| EARTHQUAKE       | 41.7 DPS 1 BAR    | <span class="grd"> GRD  </span>
+| HEAVY SLAM       | 41.7 DPS ? BAR    | <span class="stl"> STL  </span>
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #210 GRANBULL    |                   | <span class="fry">   </span><span class="fry">   </span>
+|------------------+-------------------|
+| BITE             | 0000 DPS          | <span class="drk"> DRK  </span>
+| SNARL            | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| CRUNCH           | 21.9 DPS 3 BAR    | <span class="drk"> DRK  </span>
+| PLAY ROUGH       | 38.8 DPS 2 BAR    | <span class="fry"> FRY  </span>
+| CLOSE COMBAT     | 43.5 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #211 QWILFISH    |                   | <span class="wtr">   </span><span class="psn">   </span>
+|------------------+-------------------|
+| POISON STING     | 0000 DPS          | <span class="psn"> PSN  </span>
+| WATER GUN        | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| AQUA TAIL        | 32.9 DPS ? BAR    | <span class="wtr"> WTR  </span>
+| ICE BEAM         | 27.3 DPS ? BAR    | <span class="ice"> ICE  </span>
+| SLUDGE WAVE      | 43.0 DPS ? BAR    | <span class="psn"> PSN  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #212 SCIZOR      |                   | <span class="bug">   </span><span class="stl">   </span>
+|------------------+-------------------|
+| BULLET PUNCH     | 0000 DPS          | <span class="stl"> STL  </span>
+| FURY CUTTER      | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| X SCISSOR        | 35.2 DPS 3 BAR    | <span class="bug"> BUG  </span>
+| IRON HEAD        | 39.5 DPS 2 BAR    | <span class="stl"> STL  </span>
+| NIGHT SLASH      | 22.7 DPS 3 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #213 SHUCKLE     |                   | <span class="bug">   </span><span class="rck">   </span>
+|------------------+-------------------|
+| STRUGGLE BUG     | 0000 DPS          | <span class="bug"> BUG  </span>
+| ROCK THROW       | 0000 DPS          | <span class="rck"> RCK  </span>
+|------------------+-------------------|
+| ROCK BLAST       | 29.8 DPS ? BAR    | <span class="rck"> RCK  </span>
+| STONE EDGE       | 54.3 DPS 1 BAR    | <span class="rck"> RCK  </span>
+| GYRO BALL        | 24.2 DPS 2 BAR    | <span class="stl"> STL  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #214 HERACROSS   |                   | <span class="bug">   </span><span class="ftg">   </span>
+|------------------+-------------------|
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+| STRUGGLE BUG     | 0000 DPS          | <span class="bug"> BUG  </span>
+|------------------+-------------------|
+| MEGAHORN         | 51.1 DPS 1 BAR    | <span class="bug"> BUG  </span>
+| CLOSE COMBAT     | 54.3 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+| EARTHQUAKE       | 33.3 DPS 1 BAR    | <span class="grd"> GRD  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #215 SNEASEL     |                   | <span class="drk">   </span><span class="ice">   </span>
+|------------------+-------------------|
+| ICE SHARD        | 0000 DPS          | <span class="ice"> ICE  </span>
+| FEINT ATTACK     | 0000 DPS          | <span class="drk"> DRK  </span>
+|------------------+-------------------|
+| AVALANCHE        | 41.7 DPS 2 BAR    | <span class="ice"> ICE  </span>
+| ICE PUNCH        | 32.9 DPS 3 BAR    | <span class="ice"> ICE  </span>
+| FOUL PLAY        | 43.8 DPS 2 BAR    | <span class="drk"> DRK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #217 URSARING    |                   | <span class="nrm">   </span><span class="nrm">   </span>
+|------------------+-------------------|
+| METAL CLAW       | 0000 DPS          | <span class="stl"> STL  </span>
+| COUNTER          | 0000 DPS          | <span class="ftg"> FTG  </span>
+|------------------+-------------------|
+| CLOSE COMBAT     | 43.5 DPS 1 BAR    | <span class="ftg"> FTG  </span>
+| HYPER BEAM       | 49.3 DPS 1 BAR    | <span class="nrm"> NRM  </span>
+| PLAY ROUGH       | 31.0 DPS 2 BAR    | <span class="fry"> FRY  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #219 MAGCARGO    |                   | <span class="fir">   </span><span class="rck">   </span>
+|------------------+-------------------|
+| EMBER            | 0000 DPS          | <span class="fir"> FIR  </span>
+| ROCK THROW       | 0000 DPS          | <span class="rck"> RCK  </span>
+|------------------+-------------------|
+| HEAT WAVE        | 0000 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| OVERHEAT         | 0000 DPS 1 BAR    | <span class="fir"> FIR  </span>
+| STONE EDGE       | 0000 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #221 PILOSWINE   |                   | <span class="ice">   </span><span class="grd">   </span>
+|------------------+-------------------|
+| ICE SHARD        | 0000 DPS          | <span class="ice"> ICE  </span>
+| POWDER SNOW      | 0000 DPS          | <span class="ice"> ICE  </span>
+|------------------+-------------------|
+| AVALANCHE        | 41.7 DPS 2 BAR    | <span class="ice"> ICE  </span>
+| BULLDOZE         | 28.6 DPS 2 BAR    | <span class="grd"> GRD  </span>
+| STONE EDGE       | 43.5 DPS 1 BAR    | <span class="rck"> RCK  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #222 CORSOLA     |                   | <span class="wtr">   </span><span class="rck">   </span>
+|------------------+-------------------|
+| TACKLE           | 0000 DPS          | <span class="nrm"> NRM  </span>
+| BUBBLE           | 0000 DPS          | <span class="wtr"> WTR  </span>
+|------------------+-------------------|
+| ROCK BLAST       | 0000 DPS ? BAR    | <span class="rck"> RCK  </span>
+| POWER GEM        | 0000 DPS 3 BAR    | <span class="rck"> RCK  </span>
+| BUBBLE BEAM      | 0000 DPS 3 BAR    | <span class="wtr"> WTR  </span>
+*--------------------------------------*
+
+*--------------------------------------*
+| #000 XNAMEHEREX  |                   |
+|------------------+-------------------|
+| QUICK            | 0000 DPS          |
+| QUICK            | 0000 DPS          |
+|------------------+-------------------|
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+*--------------------------------------*
+
+*--------------------------------------*
+| #000 XNAMEHEREX  |                   |
+|------------------+-------------------|
+| QUICK            | 0000 DPS          |
+| QUICK            | 0000 DPS          |
+|------------------+-------------------|
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+| CHARGE           | 0000 DPS ? BAR    |
+*--------------------------------------*
+
+--------------------------------------------------
+
+MASTER LIST CHARGE MOVE LIST (CHARGE UNITS, ALPHABETICAL)
+
+* BLIZZARD         <span class="ice">           </span>
+* BRAVE BIRD       <span class="fly">           </span>
+* CLOSE COMBAT     <span class="ftg">           </span>
+* EARTHQUAKE       <span class="grd">           </span>
+* FIRE BLAST       <span class="fir">           </span>
+* FLASH CANNON     <span class="stl">           </span>
+* FUTURESIGHT      <span class="psy">           </span>
+* GUNK SHOT        <span class="psn">           </span>
+* HEAT WAVE        <span class="fir">           </span>
+* HURRICANE        <span class="fly">           </span>
+* HYDRO PUMP       <span class="wtr">           </span>
+* HYPER BEAM       <span class="nrm">           </span>
+* ICE BEAM         <span class="ice">           </span>
+* MEGAHORN         <span class="bug">           </span>
+* MOONBLAST        <span class="fry">           </span>
+* OVERHEAT         <span class="fir">           </span>
+* PETAL BLIZZARD   <span class="grs">           </span>
+* PSYCHIC          <span class="psy">           </span>
+* SLUDGE WAVE      <span class="psn">           </span>
+* SOLAR BEAM       <span class="grs">           </span>
+* STONE EDGE       <span class="rck">           </span>
+* THUNDER          <span class="ele">           </span>
+* AIR CUTTER       <span class="fly">     </span> <span class="fly">     </span>
+* AURORA BEAM      <span class="ice">     </span> <span class="ice">     </span>
+* AVALANCHE        <span class="ice">     </span> <span class="ice">     </span>
+* BUG BUZZ         <span class="bug">     </span> <span class="bug">     </span>
+* BULLDOZE         <span class="grd">     </span> <span class="grd">     </span>
+* CROSS CHOP       <span class="ftg">     </span> <span class="ftg">     </span>
+* DARK PULSE       <span class="drk">     </span> <span class="drk">     </span>
+* DAZZLING GLEAM   <span class="fry">     </span> <span class="fry">     </span>
+* DIG              <span class="grd">     </span> <span class="grd">     </span>
+* DRAINING KISS    <span class="fry">     </span> <span class="fry">     </span>
+* DRILL RUN        <span class="grd">     </span> <span class="grd">     </span>
+* DYNAMIC PUNCH    <span class="ftg">     </span> <span class="ftg">     </span>
+* ENERGY BALL      <span class="grs">     </span> <span class="grs">     </span>
+* FLAMETHROWER     <span class="fir">     </span> <span class="fir">     </span>
+* FLAME BURST      <span class="fir">     </span> <span class="fir">     </span>
+* FOUL PLAY        <span class="drk">     </span> <span class="drk">     </span>
+* GRASS KNOT       <span class="grs">     </span> <span class="grs">     </span>
+* GYRO BALL        <span class="stl">     </span> <span class="stl">     </span>
+* HYPER FANG       <span class="nrm">     </span> <span class="nrm">     </span>
+* IRON HEAD        <span class="stl">     </span> <span class="stl">     </span>
+* NIGHT SHADE      <span class="gst">     </span> <span class="gst">     </span>
+* PLAY ROUGH       <span class="fry">     </span> <span class="fry">     </span>
+* POWER WHIP       <span class="grs">     </span> <span class="grs">     </span>
+* PSYBEAM          <span class="psy">     </span> <span class="psy">     </span>
+* ROCK SLIDE       <span class="rck">     </span> <span class="rck">     </span>
+* ROCK TOMB        <span class="rck">     </span> <span class="rck">     </span>
+* SHADOW BALL      <span class="gst">     </span> <span class="gst">     </span>
+* SLUDGE BOMB      <span class="psn">     </span> <span class="psn">     </span>
+* SKY ATTACK       <span class="fly">     </span> <span class="fly">     </span>
+* SIGNAL BEAM      <span class="bug">     </span> <span class="bug">     </span>
+* STOMP            <span class="nrm">     </span> <span class="nrm">     </span>
+* SUBMISSION       <span class="ftg">     </span> <span class="ftg">     </span>
+* SWIFT            <span class="nrm">     </span> <span class="nrm">     </span>
+* THUNDERBOLT      <span class="ele">     </span> <span class="ele">     </span>
+* WATER PULSE      <span class="wtr">     </span> <span class="wtr">     </span>
+* AERIAL ACE       <span class="fly">   </span> <span class="fly">   </span> <span class="fly">   </span>
+* ANCIENT POWER    <span class="rck">   </span> <span class="rck">   </span> <span class="rck">   </span>
+* AQUA TAIL        <span class="wtr">   </span> <span class="wtr">   </span> <span class="wtr">   </span>
+* AQUA JET         <span class="wtr">   </span> <span class="wtr">   </span> <span class="wtr">   </span>
+* BODY SLAM        <span class="nrm">   </span> <span class="nrm">   </span> <span class="nrm">   </span>
+* BONE CLUB        <span class="grd">   </span> <span class="grd">   </span> <span class="grd">   </span>
+* BRICK BREAK      <span class="ftg">   </span> <span class="ftg">   </span> <span class="ftg">   </span>
+* BUBBLE BEAM      <span class="wtr">   </span> <span class="wtr">   </span> <span class="wtr">   </span>
+* CROSS POISON     <span class="psn">   </span> <span class="psn">   </span> <span class="psn">   </span>
+* CRUNCH           <span class="drk">   </span> <span class="drk">   </span> <span class="drk">   </span>
+* DIG              <span class="grd">   </span> <span class="grd">   </span> <span class="grd">   </span>
+* DISCHARGE        <span class="ele">   </span> <span class="ele">   </span> <span class="ele">   </span>
+* DRILL PECK       <span class="fly">   </span> <span class="fly">   </span> <span class="fly">   </span>
+* FIRE PUNCH       <span class="fir">   </span> <span class="fir">   </span> <span class="fir">   </span>
+* FLAME CHARGE     <span class="fir">   </span> <span class="fir">   </span> <span class="fir">   </span>
+* HORN ATTACK      <span class="nrm">   </span> <span class="nrm">   </span> <span class="nrm">   </span>
+* ICE PUNCH        <span class="ice">   </span> <span class="ice">   </span> <span class="ice">   </span>
+* ICY WIND         <span class="ice">   </span> <span class="ice">   </span> <span class="ice">   </span>
+* LEAF BLADE       <span class="grs">   </span> <span class="grs">   </span> <span class="grs">   </span>
+* LOW SWEEP        <span class="ftg">   </span> <span class="ftg">   </span> <span class="ftg">   </span>
+* MAGNET BOMB      <span class="stl">   </span> <span class="stl">   </span> <span class="stl">   </span>
+* MUD BOMB         <span class="grd">   </span> <span class="grd">   </span> <span class="grd">   </span>
+* NIGHT SLASH      <span class="drk">   </span> <span class="drk">   </span> <span class="drk">   </span>
+* OMINOUS WIND     <span class="gst">   </span> <span class="gst">   </span> <span class="gst">   </span>
+* POISON FANG      <span class="psn">   </span> <span class="psn">   </span> <span class="psn">   </span>
+* POWER GEM        <span class="rck">   </span> <span class="rck">   </span> <span class="rck">   </span>
+* PSYSHOCK         <span class="psy">   </span> <span class="psy">   </span> <span class="psy">   </span>
+* SEED BOMB        <span class="grs">   </span> <span class="grs">   </span> <span class="grs">   </span>
+* SILVER WIND      <span class="bug">   </span> <span class="bug">   </span> <span class="bug">   </span>
+* SHADOW SNEAK     <span class="gst">   </span> <span class="gst">   </span> <span class="gst">   </span>
+* STRUGGLE         <span class="nrm">   </span> <span class="nrm">   </span> <span class="nrm">   </span>
+* THUNDER PUNCH    <span class="ele">   </span> <span class="ele">   </span> <span class="ele">   </span>
+* TWISTER          <span class="dgn">   </span> <span class="dgn">   </span> <span class="dgn">   </span>
+* VICE GRIP        <span class="nrm">   </span> <span class="nrm">   </span> <span class="nrm">   </span>
+* WRAP             <span class="nrm">   </span> <span class="nrm">   </span> <span class="nrm">   </span>
+* X SCISSOR        <span class="bug">   </span> <span class="bug">   </span> <span class="bug">   </span>
+
+* DRAGON CLAW      <span class="dgn"></span>
+* DRAGON PULSE     <span class="dgn"></span>
+* FOCUS BLAST      <span class="ftg"></span>
+* HEAVY SLAM       <span class="stl"></span>
+* MIRROR COAT      <span class="psy"></span>
+* OUTRAGE          <span class="dgn"></span>
+* PETAL BLIZZARD   <span class="grs"></span>
+* ROCK BLAST       <span class="rck"></span>
+* WILD CHARGE      <span class="ele"></span>
+* ZAP CANNON       <span class="ele"></span>
+
+</body>
+</html>
