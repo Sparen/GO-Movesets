@@ -46,9 +46,9 @@ function loadDatabase(input) {
             if (qmoveobj.type === mon.type1 || qmoveobj.type === mon.type2) {
                 dps *= 1.25;
             }
-            montable += formatDecimal(dps) + " DPS ";
+            montable += formatDecimal(dps, 1) + " DPS ";
             var eps = qmoveobj.energy / qmoveobj.duration;
-            montable += formatDecimal(eps) + " EPS  ";
+            montable += formatDecimal(eps, 1) + " EPS  ";
             if (qmoveleg) {
                 montable += "L |";
             } else {
@@ -69,7 +69,7 @@ function loadDatabase(input) {
             if (cmoveobj.type === mon.type1 || cmoveobj.type === mon.type2) {
                 dps *= 1.25;
             }
-            montable += formatDecimal(dps) + " DPS    " + cmoveobj.bars + " BAR  ";
+            montable += formatDecimal(dps, 1) + " DPS    " + cmoveobj.bars + " BAR  ";
             if (cmoveleg) {
                 montable += "L |";
             } else {
@@ -87,8 +87,20 @@ function loadDatabase(input) {
 
     var moveoutput = "";
     i = 0;
+    for (i = 0; i < qmoves.length; i += 1) {
+        moveoutput += "* " + pad(qmoves[i].name, 17);
+        moveoutput += "POWER: " + padInt(qmoves[i].power, 3) + "  ";
+        moveoutput += "ENERGY:" + padInt(qmoves[i].energy, 3) + "  ";
+        moveoutput += "DURATION:" + formatDecimal(qmoves[i].duration, 1) + "s  \n";
+    }
+    document.getElementById("qmoves").innerHTML = moveoutput;
+
+    moveoutput = "";
+    i = 0;
     for (i = 0; i < cmoves.length; i += 1) {
         moveoutput += "* " + pad(cmoves[i].name, 17);
+        moveoutput += "POWER: " + padInt(cmoves[i].power, 3) + "  ";
+        moveoutput += "DURATION:" + formatDecimal(cmoves[i].duration, 1) + "s  ";
         if (cmoves[i].bars === "1") {
             moveoutput += "<span class='" + cmoves[i].type + "'>           </span>\n";
         } else if (cmoves[i].bars === "2") {
@@ -102,7 +114,7 @@ function loadDatabase(input) {
             moveoutput += "<span class='" + cmoves[i].type + "'></span>\n";
         }
     }
-    document.getElementById("moves").innerHTML = moveoutput;
+    document.getElementById("cmoves").innerHTML = moveoutput;
 }
 
 //Pad a string with spaces
@@ -115,13 +127,24 @@ function pad(input, length) {
     return str;
 }
 
-//formats a dps value into the 00.0 format
-function formatDecimal(input) {
+//plugs spaces in front of an integer
+function padInt(input, expectedlength) {
+    var str = "";
+    var i = 0;
+    for (i = input.length; i < expectedlength; i += 1) {
+        str += " ";
+    }
+    str += input;
+    return str;
+}
+
+//formats a dps value into the 00.0* format, where the number of * is the precision value
+function formatDecimal(input, prec) {
     var str = "";
     if (input < 10) { //pad starting
         str += " ";
     }
-    str += roundPrec(input, 1).toString();
+    str += roundPrec(input, prec).toString();
     if (str.length == 2) {
         str += ".0";
     } else if (str.length == 3) { //NaN
