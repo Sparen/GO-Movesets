@@ -19,8 +19,8 @@ function setup() {
 function loadDatabase(input) {
     console.log("loadDatabase(): Running");
 
-    var borderline = "*--------------------------------------*\n";
-    var midline = "|------------------+-------------------|\n"
+    var borderline = "*-----------------------------------------*\n";
+    var midline = "|------------------+----------------------|\n"
 
     var qmoves = input.qmoves;
     var cmoves = input.cmoves;
@@ -32,7 +32,7 @@ function loadDatabase(input) {
     for (i = 0; i < mons.length; i += 1) { //For every mon
         var montable = borderline;
         var mon = mons[i];
-        montable += "| " + mon.id + " " + pad(mon.name, 12) + "|                   | ";
+        montable += "| " + mon.id + " " + pad(mon.name, 12) + "|                      | ";
         montable += "<span class='" + mon.type1 + "'>   </span>" + "<span class='" + mon.type2 + "'>   </span>\n"
         montable += midline;
         var j = 0;
@@ -46,7 +46,9 @@ function loadDatabase(input) {
             if (qmoveobj.type === mon.type1 || qmoveobj.type === mon.type2) {
                 dps *= 1.25;
             }
-            montable += formatDecimal(dps) + " DPS        ";
+            montable += formatDecimal(dps) + " DPS ";
+            var eps = qmoveobj.energy / qmoveobj.duration;
+            montable += formatDecimal(eps) + " EPS  ";
             if (qmoveleg) {
                 montable += "L |";
             } else {
@@ -67,7 +69,7 @@ function loadDatabase(input) {
             if (cmoveobj.type === mon.type1 || cmoveobj.type === mon.type2) {
                 dps *= 1.25;
             }
-            montable += formatDecimal(dps) + " DPS " + cmoveobj.bars + " BAR  ";
+            montable += formatDecimal(dps) + " DPS    " + cmoveobj.bars + " BAR  ";
             if (cmoveleg) {
                 montable += "L |";
             } else {
