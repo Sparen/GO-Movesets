@@ -8,14 +8,13 @@ It is live at [https://sparen.github.io/GO-Movesets](https://sparen.github.io/GO
 
 ## Disclaimers
 
-I do not claim the information provided to be accurate in any way, shape, or form. The database was started after Generation 2 was released, and as such, parts of the database were made before the Silph Road updated, other parts were made during the update, and other parts were made after. The old database, which was made by hand, has since been abandoned.
+I do not claim the information provided to be accurate in any way, shape, or form. The game can change without warning and since my information is based on the Silph Road, any errors there can and will get propogated here.
 
-The current database, linked above, uses Javascript to load all the necessary information, allowing for easier updating of information in case of another major game overhaul, like the one that happened one week after the Gen 2 release. Once again, the timing was crappy and I may have either set up the Javascript Database during or immediately after the Silph Road updates. 
+The current database, linked above, uses Javascript to load all the necessary information, allowing for easier updating of information in case of another major game overhaul.
 
 If there are any errors, open an issue or send a pull request with the fixed data. After major game overhauls, I will confer with the Silph Road.
 
 ## Miscellaneous Notes
 
-* The Silph Road, as of the time of writing, does not track how many charge bars are present for any given move. However, I track this information, and get it straight from the game itself. However, with an ever-changing game, these values may be incorrect or unknown. 
 * Delibird is currently in the database, although it has not yet been officially released at the time of writing. Smeargle, however, is not.
 
