@@ -1534,6 +1534,7 @@
             "type1": "BUG",
             "type2": "GRS",
             "quick": [
+                {"name": "BUG BITE", "legacy": true},
                 {"name": "STRUGGLE BUG", "legacy": false},
                 {"name": "FURY CUTTER", "legacy": false}
             ],
@@ -1566,9 +1567,9 @@
             "type1": "GRD",
             "type2": "GRD",
             "quick": [
+                {"name": "MUD SHOT", "legacy": true},
                 {"name": "SUCKER PUNCH", "legacy": false},
-                {"name": "MUD SLAP", "legacy": false},
-                {"name": "MUD SHOT", "legacy": false}
+                {"name": "MUD SLAP", "legacy": false}
             ],
             "charge": [
                 {"name": "EARTHQUAKE", "legacy": false},
@@ -1731,9 +1732,9 @@
             "type1": "RCK",
             "type2": "GRD",
             "quick": [
+                {"name": "MUD SHOT", "legacy": true},
                 {"name": "ROCK THROW", "legacy": false},
-                {"name": "MUD SLAP", "legacy": false},
-                {"name": "MUD SHOT", "legacy": false}
+                {"name": "MUD SLAP", "legacy": false}
             ],
             "charge": [
                 {"name": "ANCIENT POWER", "legacy": true},
@@ -1847,9 +1848,9 @@
             "type2": "PSN",
             "quick": [
                 {"name": "LICK", "legacy": true},
+                {"name": "ACID", "legacy": true},
                 {"name": "INFESTATION", "legacy": false},
-                {"name": "POISON JAB", "legacy": false},
-                {"name": "ACID", "legacy": false}
+                {"name": "POISON JAB", "legacy": false}
             ],
             "charge": [
                 {"name": "DARK PULSE", "legacy": false},
@@ -1886,10 +1887,10 @@
             ],
             "charge": [
                 {"name": "DARK PULSE", "legacy": true},
+                {"name": "SLUDGE WAVE", "legacy": true},
                 {"name": "SHADOW BALL", "legacy": false},
                 {"name": "FOCUS BLAST", "legacy": false},
-                {"name": "SLUDGE BOMB", "legacy": false},
-                {"name": "SLUDGE WAVE", "legacy": false}
+                {"name": "SLUDGE BOMB", "legacy": false}
             ]
         },
         {
@@ -1983,11 +1984,11 @@
                 {"name": "ROCK SMASH", "legacy": false}
             ],
             "charge": [
+                {"name": "STOMP", "legacy": true},
                 {"name": "BRICK BREAK", "legacy": true},
                 {"name": "CLOSE COMBAT", "legacy": false},
                 {"name": "LOW SWEEP", "legacy": false},
-                {"name": "STONE EDGE", "legacy": false},
-                {"name": "STOMP", "legacy": false}
+                {"name": "STONE EDGE", "legacy": false}
             ]
         },
         {
@@ -2110,16 +2111,16 @@
             "type1": "WTR",
             "type2": "PSY",
             "quick": [
+                {"name": "QUICK ATTACK", "legacy": true},
                 {"name": "TACKLE", "legacy": true},
                 {"name": "HIDDEN POWER", "legacy": false},
-                {"name": "WATER GUN", "legacy": false},
-                {"name": "QUICK ATTACK", "legacy": false}
+                {"name": "WATER GUN", "legacy": false}
             ],
             "charge": [
+                {"name": "PSYBEAM", "legacy": true},
                 {"name": "HYDRO PUMP", "legacy": false},
                 {"name": "POWER GEM", "legacy": false},
-                {"name": "PSYCHIC", "legacy": false},
-                {"name": "PSYBEAM", "legacy": false}
+                {"name": "PSYCHIC", "legacy": false}
             ]
         },
         {
@@ -2222,9 +2223,9 @@
             "type1": "WTR",
             "type2": "FLY",
             "quick": [
+                {"name": "DRAGON BREATH", "legacy": true},
                 {"name": "BITE", "legacy": false},
-                {"name": "DRAGON TAIL", "legacy": false},
-                {"name": "DRAGON BREATH", "legacy": false}
+                {"name": "DRAGON TAIL", "legacy": false}
             ],
             "charge": [
                 {"name": "TWISTER", "legacy": true},
@@ -2314,9 +2315,9 @@
             "type1": "RCK",
             "type2": "WTR",
             "quick": [
+                {"name": "ROCK THROW", "legacy": true},
                 {"name": "MUD SHOT", "legacy": false},
-                {"name": "WATER GUN", "legacy": false},
-                {"name": "ROCK THROW", "legacy": false}
+                {"name": "WATER GUN", "legacy": false}
             ],
             "charge": [
                 {"name": "ROCK SLIDE", "legacy": true},
